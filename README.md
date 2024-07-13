@@ -3,42 +3,44 @@
 ## Questions by patterns
 
 ### Two pointers:
-* 11 Container With Most Water
-* 15 3Sum
-* 16 3Sum Closest
-* 18 4Sum
-* 31 Next Permutation
-* 75 Sort Colors
-* 80 Remove Duplicates from Sorted Array II
-* 86 Partition List
-* 151 Reverse Words in a String
-* 161 One Edit Distance
-* 167 Two Sum II - Input Array Is Sorted
-* 165 Compare Version Numbers
-* 189 Rotate Array
-* 881 Boats to Save People
-* 2091 Removing Minimum and Maximum From Array
-* 1029 Two City Scheduling
-* 443 String Compression
-* 160 Intersection of Two Linked Lists
-* 1650 Lowest Common Ancestor of a Binary Tree III
-* 747 Largest Number At Least Twice of Others
-* 819 Most Common Word
-* 821 Shortest Distance to a Character
-* 2540 Minimum Common Value
-* 905 Sort Array By Parity
-* 917 Reverse Only Letters
-* 922 Sort Array By Parity II
-* 925 Long Pressed Name
-* 941 Valid Mountain Array
-* 942 DI String Match
-* 989 Add to Array-Form of Integer
-* 1184 Distance Between Bus Stops
-* 1099 Two Sum Less Than K
-* 244 Shortest Word Distance II
-* 245 Shortest Word Distance III
-* 251 Flatten 2D Vector
-* 281 Zigzag Iterator
+| Number | Problem                                     | Note |
+|--------|---------------------------------------------|------|
+| 11     | Container With Most Water                   |      |
+| 15     | 3Sum                                        |      |
+| 16     | 3Sum Closest                                |      |
+| 18     | 4Sum                                        |      |
+| 31     | Next Permutation                            |      |
+| 75     | Sort Colors                                 |      |
+| 80     | Remove Duplicates from Sorted Array II      |      |
+| 86     | Partition List                              |      |
+| 151    | Reverse Words in a String                   |      |
+| 161    | One Edit Distance                           |      |
+| 167    | Two Sum II - Input Array Is Sorted          |      |
+| 165    | Compare Version Numbers                     |      |
+| 189    | Rotate Array                                |      |
+| 881    | Boats to Save People                        |      |
+| 2091   | Removing Minimum and Maximum From Array     |      |
+| 1029   | Two City Scheduling                         |      |
+| 443    | String Compression                          |      |
+| 160    | Intersection of Two Linked Lists            |      |
+| 1650   | Lowest Common Ancestor of a Binary Tree III |      |
+| 747    | Largest Number At Least Twice of Others     |      |
+| 819    | Most Common Word                            |      |
+| 821    | Shortest Distance to a Character            |      |
+| 2540   | Minimum Common Value                        |      |
+| 905    | Sort Array By Parity                        |      |
+| 917    | Reverse Only Letters                        |      |
+| 922    | Sort Array By Parity II                     |      |
+| 925    | Long Pressed Name                           |      |
+| 941    | Valid Mountain Array                        |      |
+| 942    | DI String Match                             |      |
+| 989    | Add to Array-Form of Integer                |      |
+| 1184   | Distance Between Bus Stops                  |      |
+| 1099   | Two Sum Less Than K                         |      |
+| 244    | Shortest Word Distance II                   |      |
+| 245    | Shortest Word Distance III                  |      |
+| 251    | Flatten 2D Vector                           |      |
+| 281    | Zigzag Iterator                             |      |
   
 ### Fast and slow pointers:
 * 142 Linked List Cycle II
