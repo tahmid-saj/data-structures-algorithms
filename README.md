@@ -52,6 +52,7 @@
 * 438 Find All Anagrams in a String
 * 1004 Max Consecutive Ones III
 * 1176 Diet Plan Performance
+* 567 Permutation in String
 
 ### Merge intervals:
 * 56 Merge Intervals
