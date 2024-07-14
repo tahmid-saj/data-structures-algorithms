@@ -170,28 +170,31 @@
 <br/>
 
 ### BFS:
-* 102 Binary Tree Level Order Traversal
-* 103 Binary Tree Zigzag Level Order Traversal
-* 107 Binary Tree Level Order Traversal II
-* 116 Populating Next Right Pointers in Each Node
-* 117 Populating Next Right Pointers in Each Node II
-* 133 Clone Graph
-* 199 Binary Tree Right Side View
-* 173 Binary Search Tree Iterator
-* 743 Network Delay Time
-* 815 Bus Routes
-* 1462 Course Schedule IV
-* 1448 Count Good Nodes in Binary Tree
-* 1161 Maximum Level Sum of a Binary Tree
-* 513 Find Bottom Left Tree Value
-* 1609 Even Odd Tree
-* EPI Pg 289: Paint boolean matrix
-* EPI Pg 294: Making wired connections
-* EPI Pg 296: Transform one string to another
-* 993 Cousins in Binary Tree
-* 286 Walls and Gates
-* 314 Binary Tree Vertical Order Traversal
-* 339 Nested List Weight Sum
+| Number | Problem                                 | Note                        |
+|--------|-----------------------------------------|-----------------------------|
+| 102    | Binary Tree Level Order Traversal       |                             |
+| 103    | Binary Tree Zigzag Level Order Traversal|                             |
+| 107    | Binary Tree Level Order Traversal II    |                             |
+| 116    | Populating Next Right Pointers in Each Node |                         |
+| 117    | Populating Next Right Pointers in Each Node II |                     |
+| 133    | Clone Graph                             |                             |
+| 199    | Binary Tree Right Side View             |                             |
+| 173    | Binary Search Tree Iterator             |                             |
+| 743    | Network Delay Time                      |                             |
+| 815    | Bus Routes                              |                             |
+| 1462   | Course Schedule IV                      |                             |
+| 1448   | Count Good Nodes in Binary Tree         |                             |
+| 1161   | Maximum Level Sum of a Binary Tree      |                             |
+| 513    | Find Bottom Left Tree Value             |                             |
+| 1609   | Even Odd Tree                           |                             |
+| EPI Pg 289      | Paint boolean matrix        |                             |
+| EPI Pg 294      | Making wired connections    |                             |
+| EPI Pg 296      | Transform one string to another |                         |
+| 993    | Cousins in Binary Tree                  |                             |
+| 286    | Walls and Gates                         |                             |
+| 314    | Binary Tree Vertical Order Traversal    |                             |
+| 339    | Nested List Weight Sum                  |                             |
+
 <br/>
 
 ### Prefix sum:
