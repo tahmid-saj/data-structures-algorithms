@@ -636,49 +636,51 @@
 <br/>
 
 ### Hash Maps:
-* 128 Longest Consecutive Sequence
-* 137 Single Number II
-* 187 Repeated DNA Sequences
-* 387 First Unique Character in a String
-* 1133 Largest Unique Number
-* 1189 Maximum Number of Balloons
-* 409 Longest Palindrome
-* 383 Ransom Note
-* 706 Design HashMap
-* 359 Logger Rate Limiter
-* 205 Isomorphic Strings
-* 953 Verifying an Alien Dictionary
-* 2215 Find the Difference of Two Arrays
-* 1207 Unique Number of Occurrences
-* 160 Intersection of Two Linked Lists
-* 260 Single Number III
-* 1636 Sort Array by Increasing Frequency
-* EPI Pg 171: Nearest repeated entries in an array
-* 30 Substring with Concatenation of All Words
-* 76 Minimum Window Substring
-* 727 Minimum Window Subsequence
-* 748 Shortest Completing Word
-* 760 Find Anagram Mappings
-* 771 Jewels and Stones
-* 2540 Minimum Common Value
-* 734 Sentence Similarity
-* 884 Uncommon Words from Two Sentences
-* 888 Fair Candy Swap
-* 914 X of a Kind in a Deck of Cards
-* 929 Unique Email Addresses
-* 961 N-Repeated Element in Size 2N Array
-* 997 Find the Town Judge
-* 1002 Find Common Characters
-* 1122 Relative Sort Array
-* 1160 Find Words That Can Be Formed by Characters
-* 1165 Single-Row Keyboard
-* 1086 High Five
-* 1128 Number of Equivalent Domino Pairs
-* 249 Group Shifted Strings
-* 277 Find the Celebrity
-* 288 Unique Word Abbreviation
-* 299 Bulls and Cows
-* 325 Maximum Size Subarray Sum Equals k
+| Number | Problem                                           | Note                                    |
+|--------|---------------------------------------------------|-----------------------------------------|
+| 128    | Longest Consecutive Sequence                      |                                         |
+| 137    | Single Number II                                  |                                         |
+| 187    | Repeated DNA Sequences                            |                                         |
+| 387    | First Unique Character in a String                |                                         |
+| 1133   | Largest Unique Number                             |                                         |
+| 1189   | Maximum Number of Balloons                        |                                         |
+| 409    | Longest Palindrome                                |                                         |
+| 383    | Ransom Note                                       |                                         |
+| 706    | Design HashMap                                   |                                         |
+| 359    | Logger Rate Limiter                               |                                         |
+| 205    | Isomorphic Strings                                |                                         |
+| 953    | Verifying an Alien Dictionary                     |                                         |
+| 2215   | Find the Difference of Two Arrays                 |                                         |
+| 1207   | Unique Number of Occurrences                      |                                         |
+| 160    | Intersection of Two Linked Lists                  |                                         |
+| 260    | Single Number III                                 |                                         |
+| 1636   | Sort Array by Increasing Frequency                |                                         |
+| EPI Pg 171 | Nearest repeated entries in an array           |                                         |
+| 30     | Substring with Concatenation of All Words         |                                         |
+| 76     | Minimum Window Substring                          |                                         |
+| 727    | Minimum Window Subsequence                        |                                         |
+| 748    | Shortest Completing Word                          |                                         |
+| 760    | Find Anagram Mappings                             |                                         |
+| 771    | Jewels and Stones                                 |                                         |
+| 2540   | Minimum Common Value                              |                                         |
+| 734    | Sentence Similarity                               |                                         |
+| 884    | Uncommon Words from Two Sentences                 |                                         |
+| 888    | Fair Candy Swap                                   |                                         |
+| 914    | X of a Kind in a Deck of Cards                    |                                         |
+| 929    | Unique Email Addresses                            |                                         |
+| 961    | N-Repeated Element in Size 2N Array               |                                         |
+| 997    | Find the Town Judge                               |                                         |
+| 1002   | Find Common Characters                            |                                         |
+| 1122   | Relative Sort Array                               |                                         |
+| 1160   | Find Words That Can Be Formed by Characters       |                                         |
+| 1165   | Single-Row Keyboard                               |                                         |
+| 1086   | High Five                                         |                                         |
+| 1128   | Number of Equivalent Domino Pairs                 |                                         |
+| 249    | Group Shifted Strings                             |                                         |
+| 277    | Find the Celebrity                                |                                         |
+| 288    | Unique Word Abbreviation                          |                                         |
+| 299    | Bulls and Cows                                    |                                         |
+| 325    | Maximum Size Subarray Sum Equals k                |                                         |
 <br/>
 
 ### Heaps:
