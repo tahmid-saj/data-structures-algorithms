@@ -789,13 +789,15 @@
 <br/>
 
 ### Geometry:
-* 836 Rectangle Overlap
-* 812 Largest Triangle Area
-* 883 Projection Area of 3D Shapes
-* 892 Surface Area of 3D Shapes
-* 1037 Valid Boomerang
-* 1030 Matrix Cells in Distance Order
-* 223 Rectangle Area
+| Number | Problem                           | Note                           |
+|--------|-----------------------------------|--------------------------------|
+| 836    | Rectangle Overlap                 |                                |
+| 812    | Largest Triangle Area             |                                |
+| 883    | Projection Area of 3D Shapes      |                                |
+| 892    | Surface Area of 3D Shapes         |                                |
+| 1037   | Valid Boomerang                   |                                |
+| 1030   | Matrix Cells in Distance Order    |                                |
+| 223    | Rectangle Area                    |                                |
 <br/>
 
 ### Counting sort:
