@@ -236,30 +236,32 @@
 <br/>
 
 ### Modified binary search:
-* 33 Search in Rotated Sorted Array
-* 34 Find First and Last Position of Element in Sorted Array
-* 74 Search a 2D Matrix
-* 81 Search in Rotated Sorted Array II
-* 153 Find Minimum in Rotated Sorted Array
-* 154 Find Minimum in Rotated Sorted Array II
-* 162 Find Peak Element
-* 875 Koko Eating Bananas - Binary search over solution space
-* 729 My Calendar I
-* 1146 Snapshot Array
-* 981 Time Based Key-Value Store
-* 287 Find the Duplicate Number - Binary search over solution space
-* EPI Pg 149: Search in sorted array for entry equal to its index
-* EPI Pg 152: Real square root
-* 240 Search a 2D Matrix II
-* EPI Pg 155: Search for min and max in an array
-* 215 Kth Largest Element in an Array - Quickselect, Hoare's selection algorithm
-* 744 Find Smallest Letter Greater Than Target
-* 2540 Minimum Common Value
-* 1064 Fixed Point
-* 1099 Two Sum Less Than K
-* 1150 Check If a Number Is Majority Element in a Sorted Array
-* 245 Shortest Word Distance III
-* 275 H-Index II
+| Number | Problem                                                      | Note                                                   |
+|--------|--------------------------------------------------------------|--------------------------------------------------------|
+| 33     | Search in Rotated Sorted Array                                |                                                        |
+| 34     | Find First and Last Position of Element in Sorted Array       |                                                        |
+| 74     | Search a 2D Matrix                                           |                                                        |
+| 81     | Search in Rotated Sorted Array II                             |                                                        |
+| 153    | Find Minimum in Rotated Sorted Array                          |                                                        |
+| 154    | Find Minimum in Rotated Sorted Array II                       |                                                        |
+| 162    | Find Peak Element                                            |                                                        |
+| 875    | Koko Eating Bananas - Binary search over solution space       |                                                        |
+| 729    | My Calendar I                                                |                                                        |
+| 1146   | Snapshot Array                                               |                                                        |
+| 981    | Time Based Key-Value Store                                   |                                                        |
+| 287    | Find the Duplicate Number - Binary search over solution space |                                                        |
+| EPI Pg 149 | Search in sorted array for entry equal to its index       |                                                        |
+| EPI Pg 152 | Real square root                                           |                                                        |
+| 240    | Search a 2D Matrix II                                        |                                                        |
+| EPI Pg 155 | Search for min and max in an array                         |                                                        |
+| 215    | Kth Largest Element in an Array                               | Quickselect, Hoare's selection algorithm               |
+| 744    | Find Smallest Letter Greater Than Target                      |                                                        |
+| 2540   | Minimum Common Value                                         |                                                        |
+| 1064   | Fixed Point                                                  |                                                        |
+| 1099   | Two Sum Less Than K                                          |                                                        |
+| 1150   | Check If a Number Is Majority Element in a Sorted Array       |                                                        |
+| 245    | Shortest Word Distance III                                    |                                                        |
+| 275    | H-Index II                                                   |                                                        |
 <br/>
 
 ### Bitwise XOR:
