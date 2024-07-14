@@ -383,18 +383,20 @@
 <br/>
 
 ### Union find:
-* 684 Redundant Connection
-* 547 Number of Provinces
-* 785 Is Graph Bipartite?
-* 886 Possible Bipartition
-* 1631 Path With Minimum Effort
-* 200 Number of Islands
-* 305 Number of Islands II
-* 2076 Process Restricted Friend Requests
-* 128 Longest Consecutive Sequence
-* 947 Most Stones Removed with Same Row or Column - Union find
-* 721 Accounts Merge - Union find with previously seen emails in hashmap
-* 323 Number of Connected Components in an Undirected Graph
+| Number | Problem                                          | Note                                             |
+|--------|--------------------------------------------------|--------------------------------------------------|
+| 684    | Redundant Connection                             |                                                  |
+| 547    | Number of Provinces                              |                                                  |
+| 785    | Is Graph Bipartite?                              |                                                  |
+| 886    | Possible Bipartition                             |                                                  |
+| 1631   | Path With Minimum Effort                         |                                                  |
+| 200    | Number of Islands                                |                                                  |
+| 305    | Number of Islands II                             |                                                  |
+| 2076   | Process Restricted Friend Requests               |                                                  |
+| 128    | Longest Consecutive Sequence                     |                                                  |
+| 947    | Most Stones Removed with Same Row or Column      | Union find                                       |
+| 721    | Accounts Merge                                   | Union find with previously seen emails in hashmap|
+| 323    | Number of Connected Components in an Undirected Graph |                                              |
 <br/>
 
 ### Ordered set:
