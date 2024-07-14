@@ -86,16 +86,18 @@
 <br/>
 
 ### Monotonic stack:
-* 496 Next Greater Element I
-* 503 Next Greater Element II
-* 739 Daily Temperatures
-* 316 Remove Duplicate Letters
-* 1081 Smallest Subsequence of Distinct Characters
-* 456 132 Pattern
-* 1762 Buildings With an Ocean View
-* 84 Largest Rectangle in Histogram
-* CTCI Pg 99: Sort stack
-* 255 Verify Preorder Sequence in Binary Search Tree
+| Number | Problem                                           | Note                      |
+|--------|---------------------------------------------------|---------------------------|
+| 496    | Next Greater Element I                            |                           |
+| 503    | Next Greater Element II                           |                           |
+| 739    | Daily Temperatures                                |                           |
+| 316    | Remove Duplicate Letters                          |                           |
+| 1081   | Smallest Subsequence of Distinct Characters       |                           |
+| 456    | 132 Pattern                                       |                           |
+| 1762   | Buildings With an Ocean View                      |                           |
+| 84     | Largest Rectangle in Histogram                    |                           |
+| CTCI Pg 99 | Sort stack                                    |                           |
+| 255    | Verify Preorder Sequence in Binary Search Tree    |                           |
 <br/>
 
 ### Monotonic queue:
