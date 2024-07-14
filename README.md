@@ -101,7 +101,9 @@
 <br/>
 
 ### Monotonic queue:
-* 1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+| Number | Problem                                                                  | Note |
+|--------|--------------------------------------------------------------------------|------|
+| 1438   | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit |      |
 <br/>
 
 ### DFS:
