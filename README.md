@@ -801,20 +801,26 @@
 <br/>
 
 ### Counting sort:
-* 561 Array Partition
-* 274 H-Index
-* 912 Sort an Array
-* 1051 Height Checker
-* 1122 Relative Sort Array
-* 324 Wiggle Sort II
+| Number | Problem                | Note               |
+|--------|------------------------|--------------------|
+| 561    | Array Partition        |                    |
+| 274    | H-Index                |                    |
+| 912    | Sort an Array          |                    |
+| 1051   | Height Checker         |                    |
+| 1122   | Relative Sort Array    |                    |
+| 324    | Wiggle Sort II         |                    |
 <br/>
 
 ### Segment tree:
-* 307 Range Sum Query - Mutable
+| Number | Problem                  | Note               |
+|--------|--------------------------|--------------------|
+| 307    | Range Sum Query - Mutable|                    |
 <br/>
 
 ### Binary indexed tree:
-* 307 Range Sum Query - Mutable
+| Number | Problem                  | Note               |
+|--------|--------------------------|--------------------|
+| 307    | Range Sum Query - Mutable|                    |
 <br/>
 
 ### Famous Algorithms:
