@@ -695,20 +695,21 @@
 | 692    | Top K Frequent Words                            |                                   |
 | EPI Pg 140       | Sort almost sorted array            |                                   |
 | 1005   | Maximize Sum Of Array After K Negations         |                                   |
-
 <br/>
 
 ### Knowing what to track:
-* 219 Contains Duplicate II
-* 2255 Count Prefixes of a Given String
-* 266 Palindrome Permutation
-* 242 Valid Anagram
-* 348 Design Tic-Tac-Toe - Keep track of two lists int rows[n], int cols[n], plus two variables: diagonal, anti_diagonal
-* 49 Group Anagrams
-* 387 First Unique Character in a String
-* 438 Find All Anagrams in a String
-* 2131 Longest Palindrome by Concatenating Two Letter Words
-* 896 Monotonic Array
+| Number | Problem                                          | Note                                                                                     |
+|--------|--------------------------------------------------|------------------------------------------------------------------------------------------|
+| 219    | Contains Duplicate II                            |                                                                                          |
+| 2255   | Count Prefixes of a Given String                 |                                                                                          |
+| 266    | Palindrome Permutation                           |                                                                                          |
+| 242    | Valid Anagram                                    |                                                                                          |
+| 348    | Design Tic-Tac-Toe                              | Keep track of two lists `int rows[n]`, `int cols[n]`, plus two variables: diagonal, anti_diagonal |
+| 49     | Group Anagrams                                   |                                                                                          |
+| 387    | First Unique Character in a String               |                                                                                          |
+| 438    | Find All Anagrams in a String                    |                                                                                          |
+| 2131   | Longest Palindrome by Concatenating Two Letter Words |                                                                                          |
+| 896    | Monotonic Array                                  |                                                                                          |
 <br/>
 
 ### Custom Data Structures:
