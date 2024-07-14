@@ -268,7 +268,9 @@
 <br/>
 
 ### Bit Manipulation:
-* 832 Flipping an Image
+| Number | Problem              | Note                 |
+|--------|----------------------|----------------------|
+| 832    | Flipping an Image    |                      |
 <br/>
 
 ### Top K Elements:
