@@ -824,20 +824,22 @@
 <br/>
 
 ### Famous Algorithms:
-* 53 Maximum Subarray - Kadane's algorithm
-* 152 Maximum Product Subarray - Kadane's algorithm product variant
-* 287 Find the Duplicate Number - Floyd's Tortoise and Hare (Cycle Detection)
-* 94 Binary Tree Inorder Traversal - Iterative, Morris traversal, Constant space with parent pointers from EPI
-* 144 Binary Tree Preorder Traversal - Iterative, Morris traversal
-* 145 Binary Tree Postorder Traversal - Iterative, Morris traversal
-* 109 Convert Sorted List to Binary Search Tree - Inorder simulation
-* 105 Construct Binary Tree from Preorder and Inorder Traversal - Preorder simulation
-* 106 Construct Binary Tree from Inorder and Postorder Traversal - Postorder simulation
-* 1008 Construct Binary Search Tree from Preorder Traversal - Preorder simulation
-* 5 Longest Palindromic Substring - Manacher's Algorithm
-* 28 Find the Index of the First Occurrence in a String - Rabin-Karp, Knuth–Morris–Pratt Algorithm
-* 215 Kth Largest Element in an Array - Quickselect, Hoare's selection algorithm
-* 229 Majority Element II - Boyer-Moore Voting Algorithm
+| Number | Problem                                                   | Note                                         |
+|--------|-----------------------------------------------------------|----------------------------------------------|
+| 53     | Maximum Subarray - Kadane's algorithm                      |                                              |
+| 152    | Maximum Product Subarray - Kadane's algorithm product variant |                                          |
+| 287    | Find the Duplicate Number - Floyd's Tortoise and Hare (Cycle Detection) |                                |
+| 94     | Binary Tree Inorder Traversal - Iterative, Morris traversal, Constant space with parent pointers from EPI | |
+| 144    | Binary Tree Preorder Traversal - Iterative, Morris traversal |                                      |
+| 145    | Binary Tree Postorder Traversal - Iterative, Morris traversal |                                     |
+| 109    | Convert Sorted List to Binary Search Tree - Inorder simulation |                                |
+| 105    | Construct Binary Tree from Preorder and Inorder Traversal - Preorder simulation |             |
+| 106    | Construct Binary Tree from Inorder and Postorder Traversal - Postorder simulation |         |
+| 1008   | Construct Binary Search Tree from Preorder Traversal - Preorder simulation |                  |
+| 5      | Longest Palindromic Substring - Manacher's Algorithm       |                                              |
+| 28     | Find the Index of the First Occurrence in a String - Rabin-Karp, Knuth–Morris–Pratt Algorithm | |
+| 215    | Kth Largest Element in an Array - Quickselect, Hoare's selection algorithm |                |
+| 229    | Majority Element II - Boyer-Moore Voting Algorithm         |                                              |
 <br/>
 
 ### Language questions:
