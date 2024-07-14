@@ -41,12 +41,16 @@
 | 245    | Shortest Word Distance III                  |      |
 | 251    | Flatten 2D Vector                           |      |
 | 281    | Zigzag Iterator                             |      |
+<br/>
   
 ### Fast and slow pointers:
-* 142 Linked List Cycle II
-* 287 Find the Duplicate Number
-* 2095 Delete the Middle Node of a Linked List
-* 457 Circular Array Loop
+| Number | Problem                                   | Note                                |
+|--------|-------------------------------------------|-------------------------------------|
+| 142    | Linked List Cycle II                      |                                     |
+| 287    | Find the Duplicate Number                 |                                     |
+| 2095   | Delete the Middle Node of a Linked List   |                                     |
+| 457    | Circular Array Loop                       |                                     |
+<br/>
 
 ### Sliding window:
 * 3 Longest Substring Without Repeating Characters
@@ -56,18 +60,22 @@
 * 1004 Max Consecutive Ones III
 * 1176 Diet Plan Performance
 * 567 Permutation in String
+<br/>
 
 ### Merge intervals:
 * 56 Merge Intervals
 * 57 Insert Interval
 * 986 Interval List Intersections
+<br/>
 
 ### Cyclic sort:
 * 287 Find the Duplicate Number
+<br/>
 
 ### In-place reverse of a linked list:
 * 24 Swap Nodes in Pairs - Recursion
 * 92 Reverse Linked List II - Recursion
+<br/>
 
 ### Monotonic stack:
 * 496 Next Greater Element I
@@ -80,9 +88,11 @@
 * 84 Largest Rectangle in Histogram
 * CTCI Pg 99: Sort stack
 * 255 Verify Preorder Sequence in Binary Search Tree
+<br/>
 
 ### Monotonic queue:
 * 1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+<br/>
 
 ### DFS:
 * 98 Validate Binary Search Tree
@@ -143,6 +153,7 @@
 * 298 Binary Tree Longest Consecutive Sequence
 * 314 Binary Tree Vertical Order Traversal
 * 339 Nested List Weight Sum
+<br/>
 
 ### BFS:
 * 102 Binary Tree Level Order Traversal
@@ -167,6 +178,7 @@
 * 286 Walls and Gates
 * 314 Binary Tree Vertical Order Traversal
 * 339 Nested List Weight Sum
+<br/>
 
 ### Prefix sum:
 * 238 Product of Array Except Self - Product prefix
@@ -175,6 +187,7 @@
 * 1991 Find the Middle Index in Array
 * 304 Range Sum Query 2D - Immutable
 * 325 Maximum Size Subarray Sum Equals k
+<br/>
 
 ### Island / Matrix traversal:
 * 130 Surrounded Regions
@@ -182,10 +195,12 @@
 * 286 Walls and Gates
 * 733 Flood Fill
 * 289 Game of Life
+<br/>
 
 ### Two heaps:
 * 295 Find Median from Data Stream
 * 480 Sliding Window Median
+<br/>
 
 ### Combinatorics / Subsets (Combinations, Permutations):
 * 46 Permutations
@@ -193,6 +208,7 @@
 * 62 Unique Paths
 * 78 Subsets
 * 90 Subsets II
+<br/>
 
 ### Modified binary search:
 * 33 Search in Rotated Sorted Array
@@ -219,11 +235,14 @@
 * 1150 Check If a Number Is Majority Element in a Sorted Array
 * 245 Shortest Word Distance III
 * 275 H-Index II
+<br/>
 
 ### Bitwise XOR:
+<br/>
 
 ### Bit Manipulation:
 * 832 Flipping an Image
+<br/>
 
 ### Top K Elements:
 * 215 Kth Largest Element in an Array
@@ -231,10 +250,12 @@
 * EPI Pg 141: K closest stars
 * EPI Pg 143: K largest elements in a max-heap
 * 719 Find K-th Smallest Pair Distance
+<br/>
 
 ### K-way merge:
 * Pg 137: Merge sorted files
 * EPI Pg 212: Find the closest entries in three sorted arrays
+<br/>
 
 ### 0/1 Knapsack (DP):
 * 72 Edit Distance - Knapsack, DP
@@ -242,6 +263,7 @@
 * EPI Pg 244: Count the number of score combinations
 * EPI Pg 255: Knapsack problem
 * EPI Pg 260: Picking up coins
+<br/>
 
 ### DP:
 * 5 Longest Palindromic Substring
@@ -283,6 +305,7 @@
 * 1137 N-th Tribonacci Number
 * 221 Maximal Square
 * 110 Balanced Binary Tree
+<br/>
   
 ### Backtracking:
 * 17 Letter Combinations of a Phone Number
@@ -304,6 +327,7 @@
 * 291 Word Pattern II
 * 306 Additive Number
 * 320 Generalized Abbreviation
+<br/>
 
 ### Topological sort (Graph):
 * 207 Course Schedule
@@ -314,6 +338,7 @@
 * 444 Sequence Reconstruction
 * 2115 Find All Possible Recipes from Given Supplies - Recipes will have no incoming edges after topological sort
 * 310 Minimum Height Trees - There can be at most 2 minimum height trees, append leaves to the queue first
+<br/>
 
 ### Union find:
 * 684 Redundant Connection
@@ -328,6 +353,7 @@
 * 947 Most Stones Removed with Same Row or Column - Union find
 * 721 Accounts Merge - Union find with previously seen emails in hashmap
 * 323 Number of Connected Components in an Undirected Graph
+<br/>
 
 ### Ordered set:
 * 2363 Merge Similar Items
@@ -339,9 +365,11 @@
 * 855 Exam Room
 * 1348 Tweet Counts Per Frequency
 * 981 Time Based Key-Value Store
+<br/>
 
 ### Multi-threaded:
 * 622 Design Circular Queue
+<br/>
 
 ### Greedy techniques:
 * 11 Container With Most Water
@@ -373,6 +401,7 @@
 * 1013 Partition Array Into Three Parts With Equal Sum
 * 1196 How Many Apples Can You Put into the Basket
 * 280 Wiggle Sort
+<br/>
 
 ### Math:
 * 2 Add Two Numbers
@@ -401,6 +430,7 @@
 * 246 Strobogrammatic Number
 * 274 H-Index
 * 319 Bulb Switcher
+<br/>
 
 ### Strings:
 * 6 Zigzag conversion
@@ -435,6 +465,7 @@
 * CTCI Pg 90: URLify
 * CTCI Pg 91: String Rotation
 * 249 Group Shifted Strings
+<br/>
 
 ### Matrices:
 * 36 Valid Sudoku
@@ -447,6 +478,7 @@
 * 867 Transpose Matrix
 * 883 Projection Area of 3D Shapes
 * 892 Surface Area of 3D Shapes
+<br/>
 
 ### Stacks:
 * 71 Simplify Path - Stacks
@@ -464,11 +496,13 @@
 * 1021 Remove Outermost Parentheses
 * CTCI Pg 99: Stack of plates
 * 227 Basic Calculator II
+<br/>
 
 ### Queue:
 * 933 Number of Recent Calls
 * 622 Design Circular Queue
 * 281 Zigzag Iterator
+<br/>
 
 ### Linked Lists:
 * 19 Remove Nth Node From End of List
@@ -483,10 +517,12 @@
 * 160 Intersection of Two Linked Lists
 * EPI Pg 91: Overlapping lists with cycles
 * 1265 Print Immutable Linked List in Reverse
+<br/>
 
 ### Doubly-Linked Lists:
 * 146 LRU Cache
 * 460 LFU Cache
+<br/>
 
 ### Graphs:
 * 133 Clone Graph
@@ -505,6 +541,7 @@
 * EPI Pg 296: Transform one string to another
 * 997 Find the Town Judge
 * 277 Find the Celebrity
+<br/>
 
 ### Trees:
 * 98 Validate Binary Search Tree
@@ -514,6 +551,7 @@
 * EPI Pg 221: Add credits
 * 897 Increasing Order Search Tree
 * 331 Verify Preorder Serialization of a Binary Tree
+<br/>
 
 ### Trie:
 * 139 Word Break - Tries
@@ -525,6 +563,7 @@
 * 386 Lexicographical Numbers
 * 648 Replace Words
 * 212 Word Search II
+<br/>
 
 ### Hash Maps:
 * 128 Longest Consecutive Sequence
@@ -570,6 +609,7 @@
 * 288 Unique Word Abbreviation
 * 299 Bulls and Cows
 * 325 Maximum Size Subarray Sum Equals k
+<br/>
 
 ### Heaps:
 * 1046 Last Stone Weight
@@ -581,6 +621,7 @@
 * 692 Top K Frequent Words
 * EPI Pg 140: Sort almost sorted array
 * 1005 Maximize Sum Of Array After K Negations
+<br/>
 
 ### Knowing what to track:
 * 219 Contains Duplicate II
@@ -593,6 +634,7 @@
 * 438 Find All Anagrams in a String
 * 2131 Longest Palindrome by Concatenating Two Letter Words
 * 896 Monotonic Array
+<br/>
 
 ### Custom Data Structures:
 * 1146 Snapshot Array
@@ -609,11 +651,13 @@
 * EPI Pg 109: Circular queue
 * 232 Implement Queue using Stacks
 * EPI Pg 111: Max queue
+<br/>
 
 ### Divide and Conquer:
 * 22 Generate Parentheses
 * 53 Maximum Subarray
 * 240 Search a 2D Matrix II
+<br/>
 
 ### Design:
 * 155 Min Stack
@@ -641,6 +685,7 @@
 * 251 Flatten 2D Vector
 * 284 Peeking Iterator
 * 304 Range Sum Query 2D - Immutable
+<br/>
 
 ### Sorting:
 * 179 Largest Number - Custom sorting
@@ -657,6 +702,7 @@
 * 274 H-Index
 * 280 Wiggle Sort
 * 324 Wiggle Sort II
+<br/>
 
 ### Geometry:
 * 836 Rectangle Overlap
@@ -666,6 +712,7 @@
 * 1037 Valid Boomerang
 * 1030 Matrix Cells in Distance Order
 * 223 Rectangle Area
+<br/>
 
 ### Counting sort:
 * 561 Array Partition
@@ -674,12 +721,15 @@
 * 1051 Height Checker
 * 1122 Relative Sort Array
 * 324 Wiggle Sort II
+<br/>
 
 ### Segment tree:
 * 307 Range Sum Query - Mutable
+<br/>
 
 ### Binary indexed tree:
 * 307 Range Sum Query - Mutable
+<br/>
 
 ### Famous Algorithms:
 * 53 Maximum Subarray - Kadane's algorithm
@@ -696,8 +746,10 @@
 * 28 Find the Index of the First Occurrence in a String - Rabin-Karp, Knuth–Morris–Pratt Algorithm
 * 215 Kth Largest Element in an Array - Quickselect, Hoare's selection algorithm
 * 229 Majority Element II - Boyer-Moore Voting Algorithm
+<br/>
 
 ### Language questions:
 * EPI Pg 332: Closures
 * EPI Pg 334: Decorators
 * EPI Pg 338: Python code
+<br/>
