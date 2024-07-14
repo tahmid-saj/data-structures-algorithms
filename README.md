@@ -79,8 +79,10 @@
 <br/>
 
 ### In-place reverse of a linked list:
-* 24 Swap Nodes in Pairs - Recursion
-* 92 Reverse Linked List II - Recursion
+| Number | Problem                 | Note       |
+|--------|--------------------------|------------|
+| 24     | Swap Nodes in Pairs      | Recursion  |
+| 92     | Reverse Linked List II   | Recursion  |
 <br/>
 
 ### Monotonic stack:
