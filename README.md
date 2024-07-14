@@ -414,7 +414,9 @@
 <br/>
 
 ### Multi-threaded:
-* 622 Design Circular Queue
+| Number | Problem             | Note               |
+|--------|---------------------|--------------------|
+| 622    | Design Circular Queue |                    |
 <br/>
 
 ### Greedy techniques:
