@@ -209,11 +209,13 @@
 <br/>
 
 ### Island / Matrix traversal:
-* 130 Surrounded Regions
-* 200 Number of Islands
-* 286 Walls and Gates
-* 733 Flood Fill
-* 289 Game of Life
+| Number | Problem            | Note |
+|--------|--------------------|------|
+| 130    | Surrounded Regions |      |
+| 200    | Number of Islands  |      |
+| 286    | Walls and Gates    |      |
+| 733    | Flood Fill         |      |
+| 289    | Game of Life       |      |
 <br/>
 
 ### Two heaps:
