@@ -732,9 +732,11 @@
 <br/>
 
 ### Divide and Conquer:
-* 22 Generate Parentheses
-* 53 Maximum Subarray
-* 240 Search a 2D Matrix II
+| Number | Problem                 | Note                   |
+| ------ | ----------------------- | ---------------------- |
+| 22     | Generate Parentheses    |                        |
+| 53     | Maximum Subarray        |                        |
+| 240    | Search a 2D Matrix II   |                        |
 <br/>
 
 ### Design:
