@@ -622,15 +622,17 @@
 <br/>
 
 ### Trie:
-* 139 Word Break - Tries
-* 208 Implement Trie (Prefix Tree)
-* 1065 Index Pairs of a String
-* 211 Design Add and Search Words Data Structure
-* 2707 Extra Characters in a String
-* 1268 Search Suggestions System
-* 386 Lexicographical Numbers
-* 648 Replace Words
-* 212 Word Search II
+| Number | Problem                                   | Note                                      |
+|--------|-------------------------------------------|-------------------------------------------|
+| 139    | Word Break - Tries                        |                                           |
+| 208    | Implement Trie (Prefix Tree)              |                                           |
+| 1065   | Index Pairs of a String                   |                                           |
+| 211    | Design Add and Search Words Data Structure|                                           |
+| 2707   | Extra Characters in a String              |                                           |
+| 1268   | Search Suggestions System                 |                                           |
+| 386    | Lexicographical Numbers                  |                                           |
+| 648    | Replace Words                             |                                           |
+| 212    | Word Search II                            |                                           |
 <br/>
 
 ### Hash Maps:
