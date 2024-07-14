@@ -346,25 +346,27 @@
 <br/>
   
 ### Backtracking:
-* 17 Letter Combinations of a Phone Number
-* 22 Generate Parentheses
-* 39 Combination Sum
-* 40 Combination Sum II
-* 216 Combination Sum III
-* 46 Permutations
-* 47 Permutations II
-* 55 Jump Game
-* 77 Combinations
-* 79 Word Search
-* 93 Restore IP Addresses
-* 37 Sudoku Solver
-* 212 Word Search II
-* 51 N-Queens
-* 52 N-Queens II
-* 267 Palindrome Permutation II
-* 291 Word Pattern II
-* 306 Additive Number
-* 320 Generalized Abbreviation
+| Number | Problem                   | Note                      |
+|--------|---------------------------|---------------------------|
+| 17     | Letter Combinations of a Phone Number |                           |
+| 22     | Generate Parentheses      |                           |
+| 39     | Combination Sum           |                           |
+| 40     | Combination Sum II        |                           |
+| 216    | Combination Sum III       |                           |
+| 46     | Permutations              |                           |
+| 47     | Permutations II           |                           |
+| 55     | Jump Game                 |                           |
+| 77     | Combinations              |                           |
+| 79     | Word Search               |                           |
+| 93     | Restore IP Addresses      |                           |
+| 37     | Sudoku Solver             |                           |
+| 212    | Word Search II            |                           |
+| 51     | N-Queens                  |                           |
+| 52     | N-Queens II               |                           |
+| 267    | Palindrome Permutation II |                           |
+| 291    | Word Pattern II           |                           |
+| 306    | Additive Number           |                           |
+| 320    | Generalized Abbreviation  |                           |
 <br/>
 
 ### Topological sort (Graph):
