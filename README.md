@@ -757,9 +757,9 @@
 | 460    | LFU Cache                                     |                                          |
 | 933    | Number of Recent Calls                        |                                          |
 | 622    | Design Circular Queue                         |                                          |
-|        | EPI Pg 109: Circular queue                    |                                          |
+| EPI Pg 109       | Circular queue                    |                                          |
 | 232    | Implement Queue using Stacks                  |                                          |
-|        | EPI Pg 111: Max queue                         |                                          |
+| EPI Pg 111       | Max queue                         |                                          |
 | 705    | Design HashSet                                |                                          |
 | 706    | Design HashMap                                |                                          |
 | 244    | Shortest Word Distance II                     |                                          |
@@ -843,7 +843,9 @@
 <br/>
 
 ### Language questions:
-* EPI Pg 332: Closures
-* EPI Pg 334: Decorators
-* EPI Pg 338: Python code
+| Number | Problem                  | Note            |
+|--------|--------------------------|-----------------|
+| EPI Pg 332 | Closures                 |                 |
+| EPI Pg 334 | Decorators               |                 |
+| EPI Pg 338 | Python code              |                 |
 <br/>
