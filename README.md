@@ -582,8 +582,10 @@
 <br/>
 
 ### Doubly-Linked Lists:
-* 146 LRU Cache
-* 460 LFU Cache
+| Number | Problem    | Note      |
+|--------|------------|-----------|
+| 146    | LRU Cache  |           |
+| 460    | LFU Cache  |           |
 <br/>
 
 ### Graphs:
