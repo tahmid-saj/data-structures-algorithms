@@ -485,38 +485,40 @@
 <br/>
 
 ### Strings:
-* 6 Zigzag conversion
-* 43 Multiply Strings
-* 49 Group Anagrams
-* 186 Reverse Words in a String II
-* EPI Pg 75: Replace and remove
-* EPI Pg 80: Sinusoidal string
-* EPI Pg 81: Run-length encoding
-* 1071 Greatest Common Divisor of Strings
-* 1768 Merge Strings Alternately
-* 443 String Compression
-* 709 To Lowercase
-* 796 Rotate String
-* 800 Similar RGB Color
-* 804 Unique Morse Code Words
-* 806 Number of Lines To Write String
-* 819 Most Common Word
-* 821 Shortest Distance to a Character
-* 824 Goat Latin
-* 830 Positions of Large Groups
-* 859 Buddy Strings
-* 929 Unique Email Addresses
-* 944 Delete Columns to Make Sorted
-* 1002 Find Common Characters
-* 1078 Occurrences After Bigram
-* 1160 Find Words That Can Be Formed by Characters
-* 1165 Single-Row Keyboard
-* 1108 Defanging an IP Address
-* 1119 Remove Vowels from a String
-* CTCI Pg 90: isUnique
-* CTCI Pg 90: URLify
-* CTCI Pg 91: String Rotation
-* 249 Group Shifted Strings
+| Number | Problem                                      | Note                          |
+|--------|----------------------------------------------|-------------------------------|
+| 6      | Zigzag conversion                            |                               |
+| 43     | Multiply Strings                             |                               |
+| 49     | Group Anagrams                               |                               |
+| 186    | Reverse Words in a String II                  |                               |
+| EPI Pg 75 | Replace and remove                         |                               |
+| EPI Pg 80 | Sinusoidal string                           |                               |
+| EPI Pg 81 | Run-length encoding                         |                               |
+| 1071   | Greatest Common Divisor of Strings           |                               |
+| 1768   | Merge Strings Alternately                    |                               |
+| 443    | String Compression                           |                               |
+| 709    | To Lowercase                                 |                               |
+| 796    | Rotate String                                |                               |
+| 800    | Similar RGB Color                            |                               |
+| 804    | Unique Morse Code Words                      |                               |
+| 806    | Number of Lines To Write String              |                               |
+| 819    | Most Common Word                             |                               |
+| 821    | Shortest Distance to a Character             |                               |
+| 824    | Goat Latin                                   |                               |
+| 830    | Positions of Large Groups                    |                               |
+| 859    | Buddy Strings                                |                               |
+| 929    | Unique Email Addresses                       |                               |
+| 944    | Delete Columns to Make Sorted                |                               |
+| 1002   | Find Common Characters                       |                               |
+| 1078   | Occurrences After Bigram                     |                               |
+| 1160   | Find Words That Can Be Formed by Characters  |                               |
+| 1165   | Single-Row Keyboard                          |                               |
+| 1108   | Defanging an IP Address                      |                               |
+| 1119   | Remove Vowels from a String                  |                               |
+| CTCI Pg 90 | isUnique                                  |                               |
+| CTCI Pg 90 | URLify                                      |                               |
+| CTCI Pg 91 | String Rotation                             |                               |
+| 249    | Group Shifted Strings                        |                               |
 <br/>
 
 ### Matrices:
