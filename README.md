@@ -537,21 +537,23 @@
 <br/>
 
 ### Stacks:
-* 71 Simplify Path - Stacks
-* 150 Evaluate Reverse Polish Notation
-* 155 Min Stack
-* 224 Basic Calculator
-* 1047 Remove All Adjacent Duplicates In String
-* 1249 Minimum Remove to Make Valid Parentheses
-* 636 Exclusive Time of Functions
-* 341 Flatten Nested List Iterator
-* 232 Implement Queue using Stacks
-* 921 Minimum Add to Make Parentheses Valid
-* 853 Car Fleet - Stack
-* 933 Number of Recent Calls
-* 1021 Remove Outermost Parentheses
-* CTCI Pg 99: Stack of plates
-* 227 Basic Calculator II
+| Number | Problem                                    | Note                           |
+|--------|--------------------------------------------|--------------------------------|
+| 71     | Simplify Path - Stacks                     |                                |
+| 150    | Evaluate Reverse Polish Notation           |                                |
+| 155    | Min Stack                                  |                                |
+| 224    | Basic Calculator                          |                                |
+| 1047   | Remove All Adjacent Duplicates In String   |                                |
+| 1249   | Minimum Remove to Make Valid Parentheses   |                                |
+| 636    | Exclusive Time of Functions                |                                |
+| 341    | Flatten Nested List Iterator               |                                |
+| 232    | Implement Queue using Stacks               |                                |
+| 921    | Minimum Add to Make Parentheses Valid      |                                |
+| 853    | Car Fleet - Stack                          |                                |
+| 933    | Number of Recent Calls                     |                                |
+| 1021   | Remove Outermost Parentheses               |                                |
+| CTCI Pg 99 | Stack of plates                         | CTCI: Cracking the Coding Interview |
+| 227    | Basic Calculator II                       |                                |
 <br/>
 
 ### Queue:
