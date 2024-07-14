@@ -522,16 +522,18 @@
 <br/>
 
 ### Matrices:
-* 36 Valid Sudoku
-* 48 Rotate Image
-* 54 Spiral Matrix
-* 59 Spiral Matrix II
-* 73 Set Matrix Zeroes
-* 74 Search a 2D Matrix
-* 766 Toeplitz Matrix
-* 867 Transpose Matrix
-* 883 Projection Area of 3D Shapes
-* 892 Surface Area of 3D Shapes
+| Number | Problem                        | Note                           |
+|--------|--------------------------------|--------------------------------|
+| 36     | Valid Sudoku                   |                                |
+| 48     | Rotate Image                   |                                |
+| 54     | Spiral Matrix                  |                                |
+| 59     | Spiral Matrix II               |                                |
+| 73     | Set Matrix Zeroes              |                                |
+| 74     | Search a 2D Matrix             |                                |
+| 766    | Toeplitz Matrix                |                                |
+| 867    | Transpose Matrix               |                                |
+| 883    | Projection Area of 3D Shapes   |                                |
+| 892    | Surface Area of 3D Shapes      |                                |
 <br/>
 
 ### Stacks:
