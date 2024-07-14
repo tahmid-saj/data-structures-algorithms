@@ -713,20 +713,22 @@
 <br/>
 
 ### Custom Data Structures:
-* 1146 Snapshot Array
-* 981 Time Based Key-Value Store
-* 146 LRU Cache
-* 380 Insert Delete GetRandom O(1)
-* 341 Flatten Nested List Iterator
-* 155 Min Stack
-* 381 Insert Delete GetRandom O(1) - Duplicates allowed
-* 716 Max Stack
-* 460 LFU Cache
-* 933 Number of Recent Calls
-* 622 Design Circular Queue
-* EPI Pg 109: Circular queue
-* 232 Implement Queue using Stacks
-* EPI Pg 111: Max queue
+| Number | Problem                                       | Note                                |
+|--------|-----------------------------------------------|-------------------------------------|
+| 1146   | Snapshot Array                                |                                     |
+| 981    | Time Based Key-Value Store                    |                                     |
+| 146    | LRU Cache                                     |                                     |
+| 380    | Insert Delete GetRandom O(1)                  |                                     |
+| 341    | Flatten Nested List Iterator                  |                                     |
+| 155    | Min Stack                                     |                                     |
+| 381    | Insert Delete GetRandom O(1) - Duplicates allowed |                                   |
+| 716    | Max Stack                                     |                                     |
+| 460    | LFU Cache                                     |                                     |
+| 933    | Number of Recent Calls                        |                                     |
+| 622    | Design Circular Queue                         |                                     |
+| EPI Pg 109       | Circular queue                    |                                     |
+| 232    | Implement Queue using Stacks                  |                                     |
+| EPI Pg 111       | Max queue                         |                                     |
 <br/>
 
 ### Divide and Conquer:
