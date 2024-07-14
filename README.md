@@ -589,22 +589,24 @@
 <br/>
 
 ### Graphs:
-* 133 Clone Graph
-* 1971 Find if Path Exists in Graph
-* 547 Number of Provinces
-* 1557 Minimum Number of Vertices to Reach All Nodes
-* 743 Network Delay Time
-* 2077 Paths in Maze That Lead to Same Room
-* 261 Graph Valid Tree
-* 815 Bus Routes
-* 1462 Course Schedule IV
-* EPI Pg 287: Search a maze
-* EPI Pg 289: Paint boolean matrix
-* EPI Pg 292: Deadlock detection
-* EPI Pg 294: Making wired connections
-* EPI Pg 296: Transform one string to another
-* 997 Find the Town Judge
-* 277 Find the Celebrity
+| Number | Problem                                    | Note                            |
+|--------|--------------------------------------------|---------------------------------|
+| 133    | Clone Graph                                |                                 |
+| 1971   | Find if Path Exists in Graph               |                                 |
+| 547    | Number of Provinces                        |                                 |
+| 1557   | Minimum Number of Vertices to Reach All Nodes |                               |
+| 743    | Network Delay Time                         |                                 |
+| 2077   | Paths in Maze That Lead to Same Room       |                                 |
+| 261    | Graph Valid Tree                           |                                 |
+| 815    | Bus Routes                                 |                                 |
+| 1462   | Course Schedule IV                         |                                 |
+| EPI Pg 287 | Search a maze                           |                                 |
+| EPI Pg 289 | Paint boolean matrix                     |                                 |
+| EPI Pg 292 | Deadlock detection                       |                                 |
+| EPI Pg 294 | Making wired connections                 |                                 |
+| EPI Pg 296 | Transform one string to another          |                                 |
+| 997    | Find the Town Judge                        |                                 |
+| 277    | Find the Celebrity                         |                                 |
 <br/>
 
 ### Trees:
