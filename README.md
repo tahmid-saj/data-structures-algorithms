@@ -198,12 +198,14 @@
 <br/>
 
 ### Prefix sum:
-* 238 Product of Array Except Self - Product prefix
-* 1732 Find the Highest Altitude
-* 724 Find Pivot Index
-* 1991 Find the Middle Index in Array
-* 304 Range Sum Query 2D - Immutable
-* 325 Maximum Size Subarray Sum Equals k
+| Number | Problem                              | Note               |
+|--------|--------------------------------------|--------------------|
+| 238    | Product of Array Except Self         | Product prefix     |
+| 1732   | Find the Highest Altitude            |                    |
+| 724    | Find Pivot Index                     |                    |
+| 1991   | Find the Middle Index in Array       |                    |
+| 304    | Range Sum Query 2D - Immutable       |                    |
+| 325    | Maximum Size Subarray Sum Equals k   |                    |
 <br/>
 
 ### Island / Matrix traversal:
