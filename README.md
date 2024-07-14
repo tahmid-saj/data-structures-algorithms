@@ -65,9 +65,11 @@
 <br/>
 
 ### Merge intervals:
-* 56 Merge Intervals
-* 57 Insert Interval
-* 986 Interval List Intersections
+| Number | Problem                     | Note |
+|--------|-----------------------------|------|
+| 56     | Merge Intervals             |      |
+| 57     | Insert Interval             |      |
+| 986    | Interval List Intersections |      |
 <br/>
 
 ### Cyclic sort:
