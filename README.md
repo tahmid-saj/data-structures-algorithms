@@ -219,8 +219,10 @@
 <br/>
 
 ### Two heaps:
-* 295 Find Median from Data Stream
-* 480 Sliding Window Median
+| Number | Problem                        | Note                           |
+|--------|--------------------------------|--------------------------------|
+| 295    | Find Median from Data Stream   |                                |
+| 480    | Sliding Window Median          |                                |
 <br/>
 
 ### Combinatorics / Subsets (Combinations, Permutations):
