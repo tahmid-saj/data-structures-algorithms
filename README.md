@@ -53,13 +53,15 @@
 <br/>
 
 ### Sliding window:
-* 3 Longest Substring Without Repeating Characters
-* 159 Longest Substring with At Most Two Distinct Characters
-* 1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
-* 438 Find All Anagrams in a String
-* 1004 Max Consecutive Ones III
-* 1176 Diet Plan Performance
-* 567 Permutation in String
+| Number | Problem                                                         | Note |
+|--------|-----------------------------------------------------------------|------|
+| 3      | Longest Substring Without Repeating Characters                  |      |
+| 159    | Longest Substring with At Most Two Distinct Characters          |      |
+| 1438   | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit |      |
+| 438    | Find All Anagrams in a String                                   |      |
+| 1004   | Max Consecutive Ones III                                        |      |
+| 1176   | Diet Plan Performance                                           |      |
+| 567    | Permutation in String                                           |      |
 <br/>
 
 ### Merge intervals:
