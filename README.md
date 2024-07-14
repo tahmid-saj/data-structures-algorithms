@@ -565,18 +565,20 @@
 <br/>
 
 ### Linked Lists:
-* 19 Remove Nth Node From End of List
-* 61 Rotate List
-* 82 Remove Duplicates from Sorted List II - Sentinel
-* 86 Partition List
-* 143 Reorder List
-* 138 Copy List with Random Pointer
-* 146 LRU Cache
-* 237 Delete Node in a Linked List
-* 328 Odd Even Linked List
-* 160 Intersection of Two Linked Lists
-* EPI Pg 91: Overlapping lists with cycles
-* 1265 Print Immutable Linked List in Reverse
+| Number | Problem                                     | Note                                 |
+|--------|---------------------------------------------|--------------------------------------|
+| 19     | Remove Nth Node From End of List             |                                      |
+| 61     | Rotate List                                 |                                      |
+| 82     | Remove Duplicates from Sorted List II - Sentinel |                                    |
+| 86     | Partition List                              |                                      |
+| 143    | Reorder List                                |                                      |
+| 138    | Copy List with Random Pointer               |                                      |
+| 146    | LRU Cache                                   |                                      |
+| 237    | Delete Node in a Linked List                |                                      |
+| 328    | Odd Even Linked List                        |                                      |
+| 160    | Intersection of Two Linked Lists            |                                      |
+| EPI Pg 91 | Overlapping lists with cycles             |                                      |
+| 1265   | Print Immutable Linked List in Reverse      |                                      |
 <br/>
 
 ### Doubly-Linked Lists:
