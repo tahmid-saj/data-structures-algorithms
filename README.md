@@ -226,11 +226,13 @@
 <br/>
 
 ### Combinatorics / Subsets (Combinations, Permutations):
-* 46 Permutations
-* 47 Permutations II
-* 62 Unique Paths
-* 78 Subsets
-* 90 Subsets II
+| Number | Problem          | Note          |
+|--------|------------------|---------------|
+| 46     | Permutations     |               |
+| 47     | Permutations II  |               |
+| 62     | Unique Paths     |               |
+| 78     | Subsets          |               |
+| 90     | Subsets II       |               |
 <br/>
 
 ### Modified binary search:
