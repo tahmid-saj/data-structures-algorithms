@@ -73,7 +73,9 @@
 <br/>
 
 ### Cyclic sort:
-* 287 Find the Duplicate Number
+| Number | Problem                   | Note |
+|--------|---------------------------|------|
+| 287    | Find the Duplicate Number |      |
 <br/>
 
 ### In-place reverse of a linked list:
