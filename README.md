@@ -291,11 +291,13 @@
 <br/>
 
 ### 0/1 Knapsack (DP):
-* 72 Edit Distance - Knapsack, DP
-* 416 Partition Equal Subset Sum
-* EPI Pg 244: Count the number of score combinations
-* EPI Pg 255: Knapsack problem
-* EPI Pg 260: Picking up coins
+| Number | Problem                                      | Note                             |
+|--------|----------------------------------------------|----------------------------------|
+| 72     | Edit Distance - Knapsack, DP                 |                                  |
+| 416    | Partition Equal Subset Sum                   |                                  |
+| EPI Pg 244 | Count the number of score combinations   |                                  |
+| EPI Pg 255 | Knapsack problem                           |                                  |
+| EPI Pg 260 | Picking up coins                           |                                  |
 <br/>
 
 ### DP:
