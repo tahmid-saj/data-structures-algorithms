@@ -770,20 +770,22 @@
 <br/>
 
 ### Sorting:
-* 179 Largest Number - Custom sorting
-* Kth Smallest Number (Designgurus) - Quicksort
-* 2161 Partition Array According to Given Pivot
-* EPI Pg 51: Alternating array
-* 912 Sort an Array
-* 905 Sort Array By Parity
-* 922 Sort Array By Parity II
-* 1030 Matrix Cells in Distance Order
-* 1051 Height Checker
-* 1122 Relative Sort Array
-* 1086 High Five
-* 274 H-Index
-* 280 Wiggle Sort
-* 324 Wiggle Sort II
+| Number | Problem                                         | Note                    |
+|--------|-------------------------------------------------|-------------------------|
+| 179    | Largest Number - Custom sorting                 |                         |
+| 912    | Sort an Array                                   |                         |
+| 905    | Sort Array By Parity                            |                         |
+| 922    | Sort Array By Parity II                         |                         |
+| 1030   | Matrix Cells in Distance Order                  |                         |
+| 1051   | Height Checker                                  |                         |
+| 1122   | Relative Sort Array                             |                         |
+| 1086   | High Five                                       |                         |
+| 274    | H-Index                                         |                         |
+| 280    | Wiggle Sort                                     |                         |
+| 324    | Wiggle Sort II                                  |                         |
+| 2161   | Partition Array According to Given Pivot        |                         |
+| EPI Pg 51 | Alternating array                             |                         |
+| Designgurus: Kth Smallest Number | Quicksort         |                         |
 <br/>
 
 ### Geometry:
