@@ -301,45 +301,48 @@
 <br/>
 
 ### DP:
-* 5 Longest Palindromic Substring
-* 45 Jump Game II
-* 53 Maximum Subarray
-* 55 Jump Game
-* 62 Unique Paths
-* 63 Unique Paths II
-* 64 Minimum Path Sum
-* 72 Edit Distance - Knapsack, DP
-* 91 Decode Ways
-* 97 Interleaving String
-* 746 Min Cost Climbing Stairs
-* 198 House Robber
-* 213 House Robber II
-* 647 Palindromic Substrings
-* 322 Coin Change
-* 152 Maximum Product Subarray
-* 139 Word Break - Tries
-* 416 Partition Equal Subset Sum
-* 1143 Longest Common Subsequence
-* 494 Target Sum
-* 518 Coin Change II
-* 309 Best Time to Buy and Sell Stock with Cooldown - DP with state machine
-* 120 Triangle
-* 95 Unique Binary Search Trees II
-* 96 Unique Binary Search Trees
-* 2707 Extra Characters in a String
-* 646 Maximum Length of Pair Chain
-* 871 Minimum Number of Refueling Stops
-* 123 Best Time to Buy and Sell Stock III
-* EPI Pg 244: Count the number of score combinations
-* EPI Pg 252: Binomial coefficients
-* EPI Pg 255: Knapsack problem
-* EPI Pg 260: Picking up coins
-* EPI Pg 262: Number of moves to climb stairs
-* EPI Pg 263: Pretty printing problem
-* 1180 Count Substrings with Only One Distinct Letter
-* 1137 N-th Tribonacci Number
-* 221 Maximal Square
-* 110 Balanced Binary Tree
+| Number | Problem                                                 | Note                                |
+|--------|---------------------------------------------------------|-------------------------------------|
+| 5      | Longest Palindromic Substring                           |                                     |
+| 45     | Jump Game II                                            |                                     |
+| 53     | Maximum Subarray                                        |                                     |
+| 55     | Jump Game                                               |                                     |
+| 62     | Unique Paths                                            |                                     |
+| 63     | Unique Paths II                                         |                                     |
+| 64     | Minimum Path Sum                                        |                                     |
+| 72     | Edit Distance - Knapsack, DP                            |                                     |
+| 91     | Decode Ways                                             |                                     |
+| 97     | Interleaving String                                     |                                     |
+| 746    | Min Cost Climbing Stairs                                |                                     |
+| 198    | House Robber                                            |                                     |
+| 213    | House Robber II                                         |                                     |
+| 647    | Palindromic Substrings                                  |                                     |
+| 322    | Coin Change                                             |                                     |
+| 152    | Maximum Product Subarray                                |                                     |
+| 139    | Word Break - Tries                                      |                                     |
+| 416    | Partition Equal Subset Sum                              |                                     |
+| 1143   | Longest Common Subsequence                              |                                     |
+| 494    | Target Sum                                              |                                     |
+| 518    | Coin Change II                                          |                                     |
+| 309    | Best Time to Buy and Sell Stock with Cooldown - DP with state machine |                                     |
+| 120    | Triangle                                                |                                     |
+| 95     | Unique Binary Search Trees II                           |                                     |
+| 96     | Unique Binary Search Trees                              |                                     |
+| 2707   | Extra Characters in a String                            |                                     |
+| 646    | Maximum Length of Pair Chain                            |                                     |
+| 871    | Minimum Number of Refueling Stops                       |                                     |
+| 123    | Best Time to Buy and Sell Stock III                     |                                     |
+| EPI Pg 244       | Count the number of score combinations      |                                     |
+| EPI Pg 252       | Binomial coefficients                       |                                     |
+| EPI Pg 255       | Knapsack problem                            |                                     |
+| EPI Pg 260       | Picking up coins                            |                                     |
+| EPI Pg 262       | Number of moves to climb stairs             |                                     |
+| EPI Pg 263       | Pretty printing problem                     |                                     |
+| 1180   | Count Substrings with Only One Distinct Letter          |                                     |
+| 1137   | N-th Tribonacci Number                                  |                                     |
+| 221    | Maximal Square                                          |                                     |
+| 110    | Balanced Binary Tree                                    |                                     |
+
 <br/>
   
 ### Backtracking:
