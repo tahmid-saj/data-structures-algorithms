@@ -400,15 +400,17 @@
 <br/>
 
 ### Ordered set:
-* 2363 Merge Similar Items
-* 456 132 Pattern
-* 729 My Calendar I
-* 1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
-* 731 My Calendar II - Store two SortedLists, one for meetings with no conflicts and one for double booked meetings. If none of the double bookings conflict, return True
-* 635 Design Log Storage System
-* 855 Exam Room
-* 1348 Tweet Counts Per Frequency
-* 981 Time Based Key-Value Store
+| Number | Problem | Note |
+|--------|---------|------|
+| 2363   | Merge Similar Items | |
+| 456    | 132 Pattern | |
+| 729    | My Calendar I | |
+| 1438   | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | |
+| 731    | My Calendar II | Store two SortedLists, one for meetings with no conflicts and one for double booked meetings. If none of the double bookings conflict, return True |
+| 635    | Design Log Storage System | |
+| 855    | Exam Room | |
+| 1348   | Tweet Counts Per Frequency | |
+| 981    | Time Based Key-Value Store | |
 <br/>
 
 ### Multi-threaded:
