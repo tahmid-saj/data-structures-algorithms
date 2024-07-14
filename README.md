@@ -284,8 +284,10 @@
 <br/>
 
 ### K-way merge:
-* Pg 137: Merge sorted files
-* EPI Pg 212: Find the closest entries in three sorted arrays
+| Number | Problem                                  | Note                              |
+|--------|------------------------------------------|-----------------------------------|
+| Pg 137 | Merge sorted files                       |                                   |
+| EPI Pg 212 | Find the closest entries in three sorted arrays |                                   |
 <br/>
 
 ### 0/1 Knapsack (DP):
