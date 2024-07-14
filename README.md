@@ -684,15 +684,18 @@
 <br/>
 
 ### Heaps:
-* 1046 Last Stone Weight
-* 846 Hand of Straights
-* 1296 Divide Array in Sets of K Consecutive Numbers
-* 716 Max Stack
-* 347 Top K Frequent Elements
-* 215 Kth Largest Element in an Array
-* 692 Top K Frequent Words
-* EPI Pg 140: Sort almost sorted array
-* 1005 Maximize Sum Of Array After K Negations
+| Number | Problem                                         | Note                              |
+|--------|-------------------------------------------------|-----------------------------------|
+| 1046   | Last Stone Weight                               |                                   |
+| 846    | Hand of Straights                               |                                   |
+| 1296   | Divide Array in Sets of K Consecutive Numbers   |                                   |
+| 716    | Max Stack                                       |                                   |
+| 347    | Top K Frequent Elements                         |                                   |
+| 215    | Kth Largest Element in an Array                 |                                   |
+| 692    | Top K Frequent Words                            |                                   |
+| EPI Pg 140       | Sort almost sorted array            |                                   |
+| 1005   | Maximize Sum Of Array After K Negations         |                                   |
+
 <br/>
 
 ### Knowing what to track:
