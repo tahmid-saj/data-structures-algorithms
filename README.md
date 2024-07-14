@@ -370,14 +370,16 @@
 <br/>
 
 ### Topological sort (Graph):
-* 207 Course Schedule
-* 210 Course Schedule II
-* Designgurus.io: All Tasks Scheduling Orders
-* 1136 Parallel Courses
-* 2050 Parallel Courses III
-* 444 Sequence Reconstruction
-* 2115 Find All Possible Recipes from Given Supplies - Recipes will have no incoming edges after topological sort
-* 310 Minimum Height Trees - There can be at most 2 minimum height trees, append leaves to the queue first
+| Number | Problem                                                | Note                                                                                     |
+|--------|--------------------------------------------------------|------------------------------------------------------------------------------------------|
+| 207    | Course Schedule                                        |                                                                                          |
+| 210    | Course Schedule II                                     |                                                                                          |
+| Designgurus.io: Topological sort       | All Tasks Scheduling Orders            |                                                                                          |
+| 1136   | Parallel Courses                                       |                                                                                          |
+| 2050   | Parallel Courses III                                   |                                                                                          |
+| 444    | Sequence Reconstruction                                |                                                                                          |
+| 2115   | Find All Possible Recipes from Given Supplies - Recipes| Recipes will have no incoming edges after topological sort                                  |
+| 310    | Minimum Height Trees                                   | There can be at most 2 minimum height trees, append leaves to the queue first              |
 <br/>
 
 ### Union find:
