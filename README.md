@@ -557,9 +557,11 @@
 <br/>
 
 ### Queue:
-* 933 Number of Recent Calls
-* 622 Design Circular Queue
-* 281 Zigzag Iterator
+| Number | Problem                  | Note                  |
+|--------|--------------------------|-----------------------|
+| 933    | Number of Recent Calls   |                       |
+| 622    | Design Circular Queue    |                       |
+| 281    | Zigzag Iterator          |                       |
 <br/>
 
 ### Linked Lists:
