@@ -274,11 +274,13 @@
 <br/>
 
 ### Top K Elements:
-* 215 Kth Largest Element in an Array
-* Kth Smallest Number (Designgurus)
-* EPI Pg 141: K closest stars
-* EPI Pg 143: K largest elements in a max-heap
-* 719 Find K-th Smallest Pair Distance
+| Number | Problem                                 | Note                              |
+|--------|------------------------------------------|-----------------------------------|
+| 215    | Kth Largest Element in an Array          |                                   |
+| Designgurus: Top K Elements       | Kth Smallest Number        |                                   |
+| EPI Pg 141 | K closest stars                        |                                   |
+| EPI Pg 143 | K largest elements in a max-heap       |                                   |
+| 719    | Find K-th Smallest Pair Distance         |                                   |
 <br/>
 
 ### K-way merge:
