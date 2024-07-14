@@ -107,64 +107,66 @@
 <br/>
 
 ### DFS:
-* 98 Validate Binary Search Tree
-* 102 Binary Tree Level Order Traversal
-* 103 Binary Tree Zigzag Level Order Traversal
-* 107 Binary Tree Level Order Traversal II
-* 113 Path Sum II
-* 109 Convert Sorted List to Binary Search Tree
-* 105 Construct Binary Tree from Preorder and Inorder Traversal - Common
-* 106 Construct Binary Tree from Inorder and Postorder Traversal
-* 99 Recover Binary Search Tree
-* 129 Sum Root to Leaf Numbers
-* 133 Clone Graph
-* 199 Binary Tree Right Side View
-* 1971 Find if Path Exists in Graph
-* 547 Number of Provinces
-* 743 Network Delay Time
-* 261 Graph Valid Tree
-* 1268 Search Suggestions System
-* 386 Lexicographical Numbers
-* 323 Number of Connected Components in an Undirected Graph
-* 230 Kth Smallest Element in a BST
-* 236 Lowest Common Ancestor of a Binary Tree
-* 235 Lowest Common Ancestor of a Binary Search Tree - Recursive, iterative - find the first node that is between p.val and q.val
-* 872 Leaf-Similar Trees
-* 1448 Count Good Nodes in Binary Tree
-* 1161 Maximum Level Sum of a Binary Tree
-* 1372 Longest ZigZag Path in a Binary Tree
-* 450 Delete Node in a BST
-* 1644 Lowest Common Ancestor of a Binary Tree II
-* 1676 Lowest Common Ancestor of a Binary Tree IV
-* 865 Smallest Subtree with all the Deepest Nodes
-* 1123 Lowest Common Ancestor of Deepest Leaves
-* EPI Pg 125: K-th node in an inorder traversal
-* 285 Inorder Successor in BST
-* 510 Inorder Successor in BST II
-* EPI Pg 126: Inorder traversal with constant space and parent pointers
-* 1008 Construct Binary Search Tree from Preorder Traversal - Preorder simulation
-* EPI Pg 131: Exterior of a binary tree
-* 270 Closest Binary Search Tree Value
-* EPI Pg 207: K largest elements in BST
-* 513 Find Bottom Left Tree Value
-* EPI Pg 217: Test if three BST nodes are totally ordered
-* EPI Pg 218: Range lookup problem
-* EPI Pg 225: Tower of hanoi
-* EPI Pg 287: Search a maze
-* EPI Pg 292: Deadlock detection
-* EPI Pg 294: Making wired connections
-* 733 Flood Fill
-* 783 Minimum Distance Between BST Nodes
-* 897 Increasing Order Search Tree
-* 938 Range Sum of BST
-* 965 Univalued Binary Tree
-* 993 Cousins in Binary Tree
-* 1022 Sum of Root To Leaf Binary Numbers
-* 250 Count Univalue Subtrees
-* 255 Verify Preorder Sequence in Binary Search Tree
-* 298 Binary Tree Longest Consecutive Sequence
-* 314 Binary Tree Vertical Order Traversal
-* 339 Nested List Weight Sum
+| Number | Problem                                                 | Note                                                       |
+|--------|---------------------------------------------------------|------------------------------------------------------------|
+| 98     | Validate Binary Search Tree                             |                                                            |
+| 102    | Binary Tree Level Order Traversal                       |                                                            |
+| 103    | Binary Tree Zigzag Level Order Traversal                |                                                            |
+| 107    | Binary Tree Level Order Traversal II                    |                                                            |
+| 113    | Path Sum II                                             |                                                            |
+| 109    | Convert Sorted List to Binary Search Tree               |                                                            |
+| 105    | Construct Binary Tree from Preorder and Inorder Traversal | Common                                                    |
+| 106    | Construct Binary Tree from Inorder and Postorder Traversal |                                                            |
+| 99     | Recover Binary Search Tree                              |                                                            |
+| 129    | Sum Root to Leaf Numbers                                |                                                            |
+| 133    | Clone Graph                                             |                                                            |
+| 199    | Binary Tree Right Side View                             |                                                            |
+| 1971   | Find if Path Exists in Graph                            |                                                            |
+| 547    | Number of Provinces                                     |                                                            |
+| 743    | Network Delay Time                                      |                                                            |
+| 261    | Graph Valid Tree                                        |                                                            |
+| 1268   | Search Suggestions System                               |                                                            |
+| 386    | Lexicographical Numbers                                 |                                                            |
+| 323    | Number of Connected Components in an Undirected Graph   |                                                            |
+| 230    | Kth Smallest Element in a BST                           |                                                            |
+| 236    | Lowest Common Ancestor of a Binary Tree                 |                                                            |
+| 235    | Lowest Common Ancestor of a Binary Search Tree          | Recursive, iterative - find the first node that is between p.val and q.val |
+| 872    | Leaf-Similar Trees                                      |                                                            |
+| 1448   | Count Good Nodes in Binary Tree                         |                                                            |
+| 1161   | Maximum Level Sum of a Binary Tree                      |                                                            |
+| 1372   | Longest ZigZag Path in a Binary Tree                    |                                                            |
+| 450    | Delete Node in a BST                                    |                                                            |
+| 1644   | Lowest Common Ancestor of a Binary Tree II              |                                                            |
+| 1676   | Lowest Common Ancestor of a Binary Tree IV              |                                                            |
+| 865    | Smallest Subtree with all the Deepest Nodes             |                                                            |
+| 1123   | Lowest Common Ancestor of Deepest Leaves                |                                                            |
+| EPI Pg 125 | K-th node in an inorder traversal                  |                                                            |
+| 285    | Inorder Successor in BST                                |                                                            |
+| 510    | Inorder Successor in BST II                             |                                                            |
+| EPI Pg 126 | Inorder traversal with constant space and parent pointers |                                                            |
+| 1008   | Construct Binary Search Tree from Preorder Traversal    | Preorder simulation                                       |
+| EPI Pg 131 | Exterior of a binary tree                          |                                                            |
+| 270    | Closest Binary Search Tree Value                        |                                                            |
+| EPI Pg 207 | K largest elements in BST                          |                                                            |
+| 513    | Find Bottom Left Tree Value                             |                                                            |
+| EPI Pg 217 | Test if three BST nodes are totally ordered        |                                                            |
+| EPI Pg 218 | Range lookup problem                               |                                                            |
+| EPI Pg 225 | Tower of hanoi                                     |                                                            |
+| EPI Pg 287 | Search a maze                                      |                                                            |
+| EPI Pg 292 | Deadlock detection                                 |                                                            |
+| EPI Pg 294 | Making wired connections                           |                                                            |
+| 733    | Flood Fill                                              |                                                            |
+| 783    | Minimum Distance Between BST Nodes                      |                                                            |
+| 897    | Increasing Order Search Tree                            |                                                            |
+| 938    | Range Sum of BST                                        |                                                            |
+| 965    | Univalued Binary Tree                                   |                                                            |
+| 993    | Cousins in Binary Tree                                  |                                                            |
+| 1022   | Sum of Root To Leaf Binary Numbers                      |                                                            |
+| 250    | Count Univalue Subtrees                                 |                                                            |
+| 255    | Verify Preorder Sequence in Binary Search Tree          |                                                            |
+| 298    | Binary Tree Longest Consecutive Sequence                |                                                            |
+| 314    | Binary Tree Vertical Order Traversal                    |                                                            |
+| 339    | Nested List Weight Sum                                  |                                                            |
 <br/>
 
 ### BFS:
