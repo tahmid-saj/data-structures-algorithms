@@ -454,32 +454,34 @@
 <br/>
 
 ### Math:
-* 2 Add Two Numbers
-* 7 Reverse Integer
-* 12 Integer to Roman
-* 50 Pow(x, n)
-* 137 Single Number II
-* 96 Unique Binary Search Trees
-* 172 Factorial Trailing Zeroes - Factorial, Factors of 5
-* 224 Basic Calculator
-* 2091 Removing Minimum and Maximum From Array
-* 204 Count Primes
-* EPI Pg 223: GCD of two numbers
-* 728 Self Dividing Numbers
-* 883 Projection Area of 3D Shapes
-* 888 Fair Candy Swap
-* 908 Smallest Range I
-* 914 X of a Kind in a Deck of Cards
-* 976 Largest Perimeter Triangle
-* 1037 Valid Boomerang
-* 1056 Confusing Number
-* 1085 Sum of Digits in the Minimum Number
-* 1154 Day of the Year
-* 1118 Number of Days in a Month
-* 1134 Armstrong Number
-* 246 Strobogrammatic Number
-* 274 H-Index
-* 319 Bulb Switcher
+| Number | Problem                                    | Note                              |
+|--------|--------------------------------------------|-----------------------------------|
+| 2      | Add Two Numbers                            |                                   |
+| 7      | Reverse Integer                            |                                   |
+| 12     | Integer to Roman                           |                                   |
+| 50     | Pow(x, n)                                  |                                   |
+| 137    | Single Number II                           |                                   |
+| 96     | Unique Binary Search Trees                 |                                   |
+| 172    | Factorial Trailing Zeroes                  | Factorial, Factors of 5            |
+| 224    | Basic Calculator                          |                                   |
+| 2091   | Removing Minimum and Maximum From Array    |                                   |
+| 204    | Count Primes                               |                                   |
+| EPI Pg 223 | GCD of two numbers                      |                                   |
+| 728    | Self Dividing Numbers                      |                                   |
+| 883    | Projection Area of 3D Shapes               |                                   |
+| 888    | Fair Candy Swap                            |                                   |
+| 908    | Smallest Range I                           |                                   |
+| 914    | X of a Kind in a Deck of Cards             |                                   |
+| 976    | Largest Perimeter Triangle                 |                                   |
+| 1037   | Valid Boomerang                            |                                   |
+| 1056   | Confusing Number                           |                                   |
+| 1085   | Sum of Digits in the Minimum Number        |                                   |
+| 1154   | Day of the Year                            |                                   |
+| 1118   | Number of Days in a Month                  |                                   |
+| 1134   | Armstrong Number                           |                                   |
+| 246    | Strobogrammatic Number                     |                                   |
+| 274    | H-Index                                    |                                   |
+| 319    | Bulb Switcher                              |                                   |
 <br/>
 
 ### Strings:
