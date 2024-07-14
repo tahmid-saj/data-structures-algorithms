@@ -610,13 +610,15 @@
 <br/>
 
 ### Trees:
-* 98 Validate Binary Search Tree
-* 114 Flatten Binary Tree to Linked List
-* 116 Populating Next Right Pointers in Each Node
-* EPI Pg 212: Find the closest entries in three sorted arrays
-* EPI Pg 221: Add credits
-* 897 Increasing Order Search Tree
-* 331 Verify Preorder Serialization of a Binary Tree
+| Number | Problem                                               | Note                                          |
+|--------|--------------------------------------------------------|-----------------------------------------------|
+| 98     | Validate Binary Search Tree                            |                                               |
+| 114    | Flatten Binary Tree to Linked List                     |                                               |
+| 116    | Populating Next Right Pointers in Each Node            |                                               |
+| EPI Pg 212       | Find the closest entries in three sorted arrays |                                               |
+| EPI Pg 221       | Add credits                               |                                               |
+| 897    | Increasing Order Search Tree                           |                                               |
+| 331    | Verify Preorder Serialization of a Binary Tree         |                                               |
 <br/>
 
 ### Trie:
