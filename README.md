@@ -420,35 +420,37 @@
 <br/>
 
 ### Greedy techniques:
-* 11 Container With Most Water
-* 45 Jump Game II Greedy (track curr_farthest, curr_end for farthest jump)
-* 55 Jump Game
-* 121 Best Time to Buy and Sell Stock
-* 122 Best Time to Buy and Sell Stock II
-* 881 Boats to Save People
-* 680 Valid Palindrome II
-* 646 Maximum Length of Pair Chain
-* 921 Minimum Add to Make Parentheses Valid
-* 316 Remove Duplicate Letters
-* 1081 Smallest Subsequence of Distinct Characters
-* 2384 Largest Palindromic Number
-* 2091 Removing Minimum and Maximum From Array
-* 134 Gas Station
-* 1029 Two City Scheduling
-* 871 Minimum Number of Refueling Stops
-* 678 Valid Parenthesis String - Greedy (find the balance range (possible number of open "(" brackets))
-* 763 Partition Labels
-* 1899 Merge Triplets to Form Target Triplet - Greedy (use a set and skip triplets with any elements greater than target[i])
-* 1431 Kids With the Greatest Number of Candies
-* EPI Pg 271: Interval covering problem
-* EPI Pg 276: Find the majority element
-* 860 Lemonade Change
-* 942 DI String Match
-* 976 Largest Perimeter Triangle
-* 1005 Maximize Sum Of Array After K Negations
-* 1013 Partition Array Into Three Parts With Equal Sum
-* 1196 How Many Apples Can You Put into the Basket
-* 280 Wiggle Sort
+| Number | Problem                                                         | Note                                                                  |
+|--------|-----------------------------------------------------------------|-----------------------------------------------------------------------|
+| 11     | Container With Most Water                                       |                                                                       |
+| 45     | Jump Game II Greedy (track curr_farthest, curr_end for farthest jump) |                                                                   |
+| 55     | Jump Game                                                       |                                                                       |
+| 121    | Best Time to Buy and Sell Stock                                 |                                                                       |
+| 122    | Best Time to Buy and Sell Stock II                              |                                                                       |
+| 881    | Boats to Save People                                            |                                                                       |
+| 680    | Valid Palindrome II                                             |                                                                       |
+| 646    | Maximum Length of Pair Chain                                    |                                                                       |
+| 921    | Minimum Add to Make Parentheses Valid                           |                                                                       |
+| 316    | Remove Duplicate Letters                                        |                                                                       |
+| 1081   | Smallest Subsequence of Distinct Characters                     |                                                                       |
+| 2384   | Largest Palindromic Number                                      |                                                                       |
+| 2091   | Removing Minimum and Maximum From Array                         |                                                                       |
+| 134    | Gas Station                                                     |                                                                       |
+| 1029   | Two City Scheduling                                             |                                                                       |
+| 871    | Minimum Number of Refueling Stops                               |                                                                       |
+| 678    | Valid Parenthesis String - Greedy (find the balance range (possible number of open "(" brackets)) |                         |
+| 763    | Partition Labels                                                |                                                                       |
+| 1899   | Merge Triplets to Form Target Triplet - Greedy (use a set and skip triplets with any elements greater than target[i]) |           |
+| 1431   | Kids With the Greatest Number of Candies                        |                                                                       |
+| EPI Pg 271 | Interval covering problem                                     |                                                                       |
+| EPI Pg 276 | Find the majority element                                    |                                                                       |
+| 860    | Lemonade Change                                                 |                                                                       |
+| 942    | DI String Match                                                 |                                                                       |
+| 976    | Largest Perimeter Triangle                                      |                                                                       |
+| 1005   | Maximize Sum Of Array After K Negations                         |                                                                       |
+| 1013   | Partition Array Into Three Parts With Equal Sum                 |                                                                       |
+| 1196   | How Many Apples Can You Put into the Basket                     |                                                                       |
+| 280    | Wiggle Sort                                                     |                                                                       |
 <br/>
 
 ### Math:
