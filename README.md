@@ -740,31 +740,33 @@
 <br/>
 
 ### Design:
-* 155 Min Stack
-* 146 LRU Cache
-* 173 Binary Search Tree Iterator
-* 341 Flatten Nested List Iterator
-* 232 Implement Queue using Stacks
-* 208 Implement Trie (Prefix Tree)
-* 211 Design Add and Search Words Data Structure
-* 1146 Snapshot Array
-* 981 Time Based Key-Value Store
-* 380 Insert Delete GetRandom O(1)
-* 381 Insert Delete GetRandom O(1) - Duplicates allowed
-* 716 Max Stack
-* 460 LFU Cache
-* 933 Number of Recent Calls
-* 622 Design Circular Queue
-* EPI Pg 109: Circular queue
-* 232 Implement Queue using Stacks
-* EPI Pg 111: Max queue
-* 705 Design HashSet
-* 706 Design HashMap
-* 244 Shortest Word Distance II
-* 288 Unique Word Abbreviation
-* 251 Flatten 2D Vector
-* 284 Peeking Iterator
-* 304 Range Sum Query 2D - Immutable
+| Number | Problem                                       | Note                                     |
+|--------|-----------------------------------------------|------------------------------------------|
+| 155    | Min Stack                                     |                                          |
+| 146    | LRU Cache                                     |                                          |
+| 173    | Binary Search Tree Iterator                    |                                          |
+| 341    | Flatten Nested List Iterator                   |                                          |
+| 232    | Implement Queue using Stacks                  |                                          |
+| 208    | Implement Trie (Prefix Tree)                   |                                          |
+| 211    | Design Add and Search Words Data Structure     |                                          |
+| 1146   | Snapshot Array                                |                                          |
+| 981    | Time Based Key-Value Store                    |                                          |
+| 380    | Insert Delete GetRandom O(1)                  |                                          |
+| 381    | Insert Delete GetRandom O(1) - Duplicates allowed |                                      |
+| 716    | Max Stack                                     |                                          |
+| 460    | LFU Cache                                     |                                          |
+| 933    | Number of Recent Calls                        |                                          |
+| 622    | Design Circular Queue                         |                                          |
+|        | EPI Pg 109: Circular queue                    |                                          |
+| 232    | Implement Queue using Stacks                  |                                          |
+|        | EPI Pg 111: Max queue                         |                                          |
+| 705    | Design HashSet                                |                                          |
+| 706    | Design HashMap                                |                                          |
+| 244    | Shortest Word Distance II                     |                                          |
+| 288    | Unique Word Abbreviation                      |                                          |
+| 251    | Flatten 2D Vector                             |                                          |
+| 284    | Peeking Iterator                              |                                          |
+| 304    | Range Sum Query 2D - Immutable                |                                          |
 <br/>
 
 ### Sorting:
