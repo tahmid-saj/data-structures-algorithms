@@ -370,426 +370,482 @@
 <br/>
 
 ### Topological sort (Graph):
-* 207 Course Schedule
-* 210 Course Schedule II
-* Designgurus.io: All Tasks Scheduling Orders
-* 1136 Parallel Courses
-* 2050 Parallel Courses III
-* 444 Sequence Reconstruction
-* 2115 Find All Possible Recipes from Given Supplies - Recipes will have no incoming edges after topological sort
-* 310 Minimum Height Trees - There can be at most 2 minimum height trees, append leaves to the queue first
+| Number | Problem                                                | Note                                                                                     |
+|--------|--------------------------------------------------------|------------------------------------------------------------------------------------------|
+| 207    | Course Schedule                                        |                                                                                          |
+| 210    | Course Schedule II                                     |                                                                                          |
+| Designgurus.io: Topological sort       | All Tasks Scheduling Orders            |                                                                                          |
+| 1136   | Parallel Courses                                       |                                                                                          |
+| 2050   | Parallel Courses III                                   |                                                                                          |
+| 444    | Sequence Reconstruction                                |                                                                                          |
+| 2115   | Find All Possible Recipes from Given Supplies - Recipes| Recipes will have no incoming edges after topological sort                                  |
+| 310    | Minimum Height Trees                                   | There can be at most 2 minimum height trees, append leaves to the queue first              |
 <br/>
 
 ### Union find:
-* 684 Redundant Connection
-* 547 Number of Provinces
-* 785 Is Graph Bipartite?
-* 886 Possible Bipartition
-* 1631 Path With Minimum Effort
-* 200 Number of Islands
-* 305 Number of Islands II
-* 2076 Process Restricted Friend Requests
-* 128 Longest Consecutive Sequence
-* 947 Most Stones Removed with Same Row or Column - Union find
-* 721 Accounts Merge - Union find with previously seen emails in hashmap
-* 323 Number of Connected Components in an Undirected Graph
+| Number | Problem                                          | Note                                             |
+|--------|--------------------------------------------------|--------------------------------------------------|
+| 684    | Redundant Connection                             |                                                  |
+| 547    | Number of Provinces                              |                                                  |
+| 785    | Is Graph Bipartite?                              |                                                  |
+| 886    | Possible Bipartition                             |                                                  |
+| 1631   | Path With Minimum Effort                         |                                                  |
+| 200    | Number of Islands                                |                                                  |
+| 305    | Number of Islands II                             |                                                  |
+| 2076   | Process Restricted Friend Requests               |                                                  |
+| 128    | Longest Consecutive Sequence                     |                                                  |
+| 947    | Most Stones Removed with Same Row or Column      | Union find                                       |
+| 721    | Accounts Merge                                   | Union find with previously seen emails in hashmap|
+| 323    | Number of Connected Components in an Undirected Graph |                                              |
 <br/>
 
 ### Ordered set:
-* 2363 Merge Similar Items
-* 456 132 Pattern
-* 729 My Calendar I
-* 1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
-* 731 My Calendar II - Store two SortedLists, one for meetings with no conflicts and one for double booked meetings. If none of the double bookings conflict, return True
-* 635 Design Log Storage System
-* 855 Exam Room
-* 1348 Tweet Counts Per Frequency
-* 981 Time Based Key-Value Store
+| Number | Problem | Note |
+|--------|---------|------|
+| 2363   | Merge Similar Items | |
+| 456    | 132 Pattern | |
+| 729    | My Calendar I | |
+| 1438   | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | |
+| 731    | My Calendar II | Store two SortedLists, one for meetings with no conflicts and one for double booked meetings. If none of the double bookings conflict, return True |
+| 635    | Design Log Storage System | |
+| 855    | Exam Room | |
+| 1348   | Tweet Counts Per Frequency | |
+| 981    | Time Based Key-Value Store | |
 <br/>
 
 ### Multi-threaded:
-* 622 Design Circular Queue
+| Number | Problem             | Note               |
+|--------|---------------------|--------------------|
+| 622    | Design Circular Queue |                    |
 <br/>
 
 ### Greedy techniques:
-* 11 Container With Most Water
-* 45 Jump Game II Greedy (track curr_farthest, curr_end for farthest jump)
-* 55 Jump Game
-* 121 Best Time to Buy and Sell Stock
-* 122 Best Time to Buy and Sell Stock II
-* 881 Boats to Save People
-* 680 Valid Palindrome II
-* 646 Maximum Length of Pair Chain
-* 921 Minimum Add to Make Parentheses Valid
-* 316 Remove Duplicate Letters
-* 1081 Smallest Subsequence of Distinct Characters
-* 2384 Largest Palindromic Number
-* 2091 Removing Minimum and Maximum From Array
-* 134 Gas Station
-* 1029 Two City Scheduling
-* 871 Minimum Number of Refueling Stops
-* 678 Valid Parenthesis String - Greedy (find the balance range (possible number of open "(" brackets))
-* 763 Partition Labels
-* 1899 Merge Triplets to Form Target Triplet - Greedy (use a set and skip triplets with any elements greater than target[i])
-* 1431 Kids With the Greatest Number of Candies
-* EPI Pg 271: Interval covering problem
-* EPI Pg 276: Find the majority element
-* 860 Lemonade Change
-* 942 DI String Match
-* 976 Largest Perimeter Triangle
-* 1005 Maximize Sum Of Array After K Negations
-* 1013 Partition Array Into Three Parts With Equal Sum
-* 1196 How Many Apples Can You Put into the Basket
-* 280 Wiggle Sort
+| Number | Problem                                                         | Note                                                                  |
+|--------|-----------------------------------------------------------------|-----------------------------------------------------------------------|
+| 11     | Container With Most Water                                       |                                                                       |
+| 45     | Jump Game II Greedy (track curr_farthest, curr_end for farthest jump) |                                                                   |
+| 55     | Jump Game                                                       |                                                                       |
+| 121    | Best Time to Buy and Sell Stock                                 |                                                                       |
+| 122    | Best Time to Buy and Sell Stock II                              |                                                                       |
+| 881    | Boats to Save People                                            |                                                                       |
+| 680    | Valid Palindrome II                                             |                                                                       |
+| 646    | Maximum Length of Pair Chain                                    |                                                                       |
+| 921    | Minimum Add to Make Parentheses Valid                           |                                                                       |
+| 316    | Remove Duplicate Letters                                        |                                                                       |
+| 1081   | Smallest Subsequence of Distinct Characters                     |                                                                       |
+| 2384   | Largest Palindromic Number                                      |                                                                       |
+| 2091   | Removing Minimum and Maximum From Array                         |                                                                       |
+| 134    | Gas Station                                                     |                                                                       |
+| 1029   | Two City Scheduling                                             |                                                                       |
+| 871    | Minimum Number of Refueling Stops                               |                                                                       |
+| 678    | Valid Parenthesis String - Greedy (find the balance range (possible number of open "(" brackets)) |                         |
+| 763    | Partition Labels                                                |                                                                       |
+| 1899   | Merge Triplets to Form Target Triplet - Greedy (use a set and skip triplets with any elements greater than target[i]) |           |
+| 1431   | Kids With the Greatest Number of Candies                        |                                                                       |
+| EPI Pg 271 | Interval covering problem                                     |                                                                       |
+| EPI Pg 276 | Find the majority element                                    |                                                                       |
+| 860    | Lemonade Change                                                 |                                                                       |
+| 942    | DI String Match                                                 |                                                                       |
+| 976    | Largest Perimeter Triangle                                      |                                                                       |
+| 1005   | Maximize Sum Of Array After K Negations                         |                                                                       |
+| 1013   | Partition Array Into Three Parts With Equal Sum                 |                                                                       |
+| 1196   | How Many Apples Can You Put into the Basket                     |                                                                       |
+| 280    | Wiggle Sort                                                     |                                                                       |
 <br/>
 
 ### Math:
-* 2 Add Two Numbers
-* 7 Reverse Integer
-* 12 Integer to Roman
-* 50 Pow(x, n)
-* 137 Single Number II
-* 96 Unique Binary Search Trees
-* 172 Factorial Trailing Zeroes - Factorial, Factors of 5
-* 224 Basic Calculator
-* 2091 Removing Minimum and Maximum From Array
-* 204 Count Primes
-* EPI Pg 223: GCD of two numbers
-* 728 Self Dividing Numbers
-* 883 Projection Area of 3D Shapes
-* 888 Fair Candy Swap
-* 908 Smallest Range I
-* 914 X of a Kind in a Deck of Cards
-* 976 Largest Perimeter Triangle
-* 1037 Valid Boomerang
-* 1056 Confusing Number
-* 1085 Sum of Digits in the Minimum Number
-* 1154 Day of the Year
-* 1118 Number of Days in a Month
-* 1134 Armstrong Number
-* 246 Strobogrammatic Number
-* 274 H-Index
-* 319 Bulb Switcher
+| Number | Problem                                    | Note                              |
+|--------|--------------------------------------------|-----------------------------------|
+| 2      | Add Two Numbers                            |                                   |
+| 7      | Reverse Integer                            |                                   |
+| 12     | Integer to Roman                           |                                   |
+| 50     | Pow(x, n)                                  |                                   |
+| 137    | Single Number II                           |                                   |
+| 96     | Unique Binary Search Trees                 |                                   |
+| 172    | Factorial Trailing Zeroes                  | Factorial, Factors of 5            |
+| 224    | Basic Calculator                          |                                   |
+| 2091   | Removing Minimum and Maximum From Array    |                                   |
+| 204    | Count Primes                               |                                   |
+| EPI Pg 223 | GCD of two numbers                      |                                   |
+| 728    | Self Dividing Numbers                      |                                   |
+| 883    | Projection Area of 3D Shapes               |                                   |
+| 888    | Fair Candy Swap                            |                                   |
+| 908    | Smallest Range I                           |                                   |
+| 914    | X of a Kind in a Deck of Cards             |                                   |
+| 976    | Largest Perimeter Triangle                 |                                   |
+| 1037   | Valid Boomerang                            |                                   |
+| 1056   | Confusing Number                           |                                   |
+| 1085   | Sum of Digits in the Minimum Number        |                                   |
+| 1154   | Day of the Year                            |                                   |
+| 1118   | Number of Days in a Month                  |                                   |
+| 1134   | Armstrong Number                           |                                   |
+| 246    | Strobogrammatic Number                     |                                   |
+| 274    | H-Index                                    |                                   |
+| 319    | Bulb Switcher                              |                                   |
 <br/>
 
 ### Strings:
-* 6 Zigzag conversion
-* 43 Multiply Strings
-* 49 Group Anagrams
-* 186 Reverse Words in a String II
-* EPI Pg 75: Replace and remove
-* EPI Pg 80: Sinusoidal string
-* EPI Pg 81: Run-length encoding
-* 1071 Greatest Common Divisor of Strings
-* 1768 Merge Strings Alternately
-* 443 String Compression
-* 709 To Lowercase
-* 796 Rotate String
-* 800 Similar RGB Color
-* 804 Unique Morse Code Words
-* 806 Number of Lines To Write String
-* 819 Most Common Word
-* 821 Shortest Distance to a Character
-* 824 Goat Latin
-* 830 Positions of Large Groups
-* 859 Buddy Strings
-* 929 Unique Email Addresses
-* 944 Delete Columns to Make Sorted
-* 1002 Find Common Characters
-* 1078 Occurrences After Bigram
-* 1160 Find Words That Can Be Formed by Characters
-* 1165 Single-Row Keyboard
-* 1108 Defanging an IP Address
-* 1119 Remove Vowels from a String
-* CTCI Pg 90: isUnique
-* CTCI Pg 90: URLify
-* CTCI Pg 91: String Rotation
-* 249 Group Shifted Strings
+| Number | Problem                                      | Note                          |
+|--------|----------------------------------------------|-------------------------------|
+| 6      | Zigzag conversion                            |                               |
+| 43     | Multiply Strings                             |                               |
+| 49     | Group Anagrams                               |                               |
+| 186    | Reverse Words in a String II                  |                               |
+| EPI Pg 75 | Replace and remove                         |                               |
+| EPI Pg 80 | Sinusoidal string                           |                               |
+| EPI Pg 81 | Run-length encoding                         |                               |
+| 1071   | Greatest Common Divisor of Strings           |                               |
+| 1768   | Merge Strings Alternately                    |                               |
+| 443    | String Compression                           |                               |
+| 709    | To Lowercase                                 |                               |
+| 796    | Rotate String                                |                               |
+| 800    | Similar RGB Color                            |                               |
+| 804    | Unique Morse Code Words                      |                               |
+| 806    | Number of Lines To Write String              |                               |
+| 819    | Most Common Word                             |                               |
+| 821    | Shortest Distance to a Character             |                               |
+| 824    | Goat Latin                                   |                               |
+| 830    | Positions of Large Groups                    |                               |
+| 859    | Buddy Strings                                |                               |
+| 929    | Unique Email Addresses                       |                               |
+| 944    | Delete Columns to Make Sorted                |                               |
+| 1002   | Find Common Characters                       |                               |
+| 1078   | Occurrences After Bigram                     |                               |
+| 1160   | Find Words That Can Be Formed by Characters  |                               |
+| 1165   | Single-Row Keyboard                          |                               |
+| 1108   | Defanging an IP Address                      |                               |
+| 1119   | Remove Vowels from a String                  |                               |
+| CTCI Pg 90 | isUnique                                  |                               |
+| CTCI Pg 90 | URLify                                      |                               |
+| CTCI Pg 91 | String Rotation                             |                               |
+| 249    | Group Shifted Strings                        |                               |
 <br/>
 
 ### Matrices:
-* 36 Valid Sudoku
-* 48 Rotate Image
-* 54 Spiral Matrix
-* 59 Spiral Matrix II
-* 73 Set Matrix Zeroes
-* 74 Search a 2D Matrix
-* 766 Toeplitz Matrix
-* 867 Transpose Matrix
-* 883 Projection Area of 3D Shapes
-* 892 Surface Area of 3D Shapes
+| Number | Problem                        | Note                           |
+|--------|--------------------------------|--------------------------------|
+| 36     | Valid Sudoku                   |                                |
+| 48     | Rotate Image                   |                                |
+| 54     | Spiral Matrix                  |                                |
+| 59     | Spiral Matrix II               |                                |
+| 73     | Set Matrix Zeroes              |                                |
+| 74     | Search a 2D Matrix             |                                |
+| 766    | Toeplitz Matrix                |                                |
+| 867    | Transpose Matrix               |                                |
+| 883    | Projection Area of 3D Shapes   |                                |
+| 892    | Surface Area of 3D Shapes      |                                |
 <br/>
 
 ### Stacks:
-* 71 Simplify Path - Stacks
-* 150 Evaluate Reverse Polish Notation
-* 155 Min Stack
-* 224 Basic Calculator
-* 1047 Remove All Adjacent Duplicates In String
-* 1249 Minimum Remove to Make Valid Parentheses
-* 636 Exclusive Time of Functions
-* 341 Flatten Nested List Iterator
-* 232 Implement Queue using Stacks
-* 921 Minimum Add to Make Parentheses Valid
-* 853 Car Fleet - Stack
-* 933 Number of Recent Calls
-* 1021 Remove Outermost Parentheses
-* CTCI Pg 99: Stack of plates
-* 227 Basic Calculator II
+| Number | Problem                                    | Note                           |
+|--------|--------------------------------------------|--------------------------------|
+| 71     | Simplify Path - Stacks                     |                                |
+| 150    | Evaluate Reverse Polish Notation           |                                |
+| 155    | Min Stack                                  |                                |
+| 224    | Basic Calculator                          |                                |
+| 1047   | Remove All Adjacent Duplicates In String   |                                |
+| 1249   | Minimum Remove to Make Valid Parentheses   |                                |
+| 636    | Exclusive Time of Functions                |                                |
+| 341    | Flatten Nested List Iterator               |                                |
+| 232    | Implement Queue using Stacks               |                                |
+| 921    | Minimum Add to Make Parentheses Valid      |                                |
+| 853    | Car Fleet - Stack                          |                                |
+| 933    | Number of Recent Calls                     |                                |
+| 1021   | Remove Outermost Parentheses               |                                |
+| CTCI Pg 99 | Stack of plates                         | CTCI: Cracking the Coding Interview |
+| 227    | Basic Calculator II                       |                                |
 <br/>
 
 ### Queue:
-* 933 Number of Recent Calls
-* 622 Design Circular Queue
-* 281 Zigzag Iterator
+| Number | Problem                  | Note                  |
+|--------|--------------------------|-----------------------|
+| 933    | Number of Recent Calls   |                       |
+| 622    | Design Circular Queue    |                       |
+| 281    | Zigzag Iterator          |                       |
 <br/>
 
 ### Linked Lists:
-* 19 Remove Nth Node From End of List
-* 61 Rotate List
-* 82 Remove Duplicates from Sorted List II - Sentinel
-* 86 Partition List
-* 143 Reorder List
-* 138 Copy List with Random Pointer
-* 146 LRU Cache
-* 237 Delete Node in a Linked List
-* 328 Odd Even Linked List
-* 160 Intersection of Two Linked Lists
-* EPI Pg 91: Overlapping lists with cycles
-* 1265 Print Immutable Linked List in Reverse
+| Number | Problem                                     | Note                                 |
+|--------|---------------------------------------------|--------------------------------------|
+| 19     | Remove Nth Node From End of List             |                                      |
+| 61     | Rotate List                                 |                                      |
+| 82     | Remove Duplicates from Sorted List II - Sentinel |                                    |
+| 86     | Partition List                              |                                      |
+| 143    | Reorder List                                |                                      |
+| 138    | Copy List with Random Pointer               |                                      |
+| 146    | LRU Cache                                   |                                      |
+| 237    | Delete Node in a Linked List                |                                      |
+| 328    | Odd Even Linked List                        |                                      |
+| 160    | Intersection of Two Linked Lists            |                                      |
+| EPI Pg 91 | Overlapping lists with cycles             |                                      |
+| 1265   | Print Immutable Linked List in Reverse      |                                      |
 <br/>
 
 ### Doubly-Linked Lists:
-* 146 LRU Cache
-* 460 LFU Cache
+| Number | Problem    | Note      |
+|--------|------------|-----------|
+| 146    | LRU Cache  |           |
+| 460    | LFU Cache  |           |
 <br/>
 
 ### Graphs:
-* 133 Clone Graph
-* 1971 Find if Path Exists in Graph
-* 547 Number of Provinces
-* 1557 Minimum Number of Vertices to Reach All Nodes
-* 743 Network Delay Time
-* 2077 Paths in Maze That Lead to Same Room
-* 261 Graph Valid Tree
-* 815 Bus Routes
-* 1462 Course Schedule IV
-* EPI Pg 287: Search a maze
-* EPI Pg 289: Paint boolean matrix
-* EPI Pg 292: Deadlock detection
-* EPI Pg 294: Making wired connections
-* EPI Pg 296: Transform one string to another
-* 997 Find the Town Judge
-* 277 Find the Celebrity
+| Number | Problem                                    | Note                            |
+|--------|--------------------------------------------|---------------------------------|
+| 133    | Clone Graph                                |                                 |
+| 1971   | Find if Path Exists in Graph               |                                 |
+| 547    | Number of Provinces                        |                                 |
+| 1557   | Minimum Number of Vertices to Reach All Nodes |                               |
+| 743    | Network Delay Time                         |                                 |
+| 2077   | Paths in Maze That Lead to Same Room       |                                 |
+| 261    | Graph Valid Tree                           |                                 |
+| 815    | Bus Routes                                 |                                 |
+| 1462   | Course Schedule IV                         |                                 |
+| EPI Pg 287 | Search a maze                           |                                 |
+| EPI Pg 289 | Paint boolean matrix                     |                                 |
+| EPI Pg 292 | Deadlock detection                       |                                 |
+| EPI Pg 294 | Making wired connections                 |                                 |
+| EPI Pg 296 | Transform one string to another          |                                 |
+| 997    | Find the Town Judge                        |                                 |
+| 277    | Find the Celebrity                         |                                 |
 <br/>
 
 ### Trees:
-* 98 Validate Binary Search Tree
-* 114 Flatten Binary Tree to Linked List
-* 116 Populating Next Right Pointers in Each Node
-* EPI Pg 212: Find the closest entries in three sorted arrays
-* EPI Pg 221: Add credits
-* 897 Increasing Order Search Tree
-* 331 Verify Preorder Serialization of a Binary Tree
+| Number | Problem                                               | Note                                          |
+|--------|--------------------------------------------------------|-----------------------------------------------|
+| 98     | Validate Binary Search Tree                            |                                               |
+| 114    | Flatten Binary Tree to Linked List                     |                                               |
+| 116    | Populating Next Right Pointers in Each Node            |                                               |
+| EPI Pg 212       | Find the closest entries in three sorted arrays |                                               |
+| EPI Pg 221       | Add credits                               |                                               |
+| 897    | Increasing Order Search Tree                           |                                               |
+| 331    | Verify Preorder Serialization of a Binary Tree         |                                               |
 <br/>
 
 ### Trie:
-* 139 Word Break - Tries
-* 208 Implement Trie (Prefix Tree)
-* 1065 Index Pairs of a String
-* 211 Design Add and Search Words Data Structure
-* 2707 Extra Characters in a String
-* 1268 Search Suggestions System
-* 386 Lexicographical Numbers
-* 648 Replace Words
-* 212 Word Search II
+| Number | Problem                                   | Note                                      |
+|--------|-------------------------------------------|-------------------------------------------|
+| 139    | Word Break - Tries                        |                                           |
+| 208    | Implement Trie (Prefix Tree)              |                                           |
+| 1065   | Index Pairs of a String                   |                                           |
+| 211    | Design Add and Search Words Data Structure|                                           |
+| 2707   | Extra Characters in a String              |                                           |
+| 1268   | Search Suggestions System                 |                                           |
+| 386    | Lexicographical Numbers                  |                                           |
+| 648    | Replace Words                             |                                           |
+| 212    | Word Search II                            |                                           |
 <br/>
 
 ### Hash Maps:
-* 128 Longest Consecutive Sequence
-* 137 Single Number II
-* 187 Repeated DNA Sequences
-* 387 First Unique Character in a String
-* 1133 Largest Unique Number
-* 1189 Maximum Number of Balloons
-* 409 Longest Palindrome
-* 383 Ransom Note
-* 706 Design HashMap
-* 359 Logger Rate Limiter
-* 205 Isomorphic Strings
-* 953 Verifying an Alien Dictionary
-* 2215 Find the Difference of Two Arrays
-* 1207 Unique Number of Occurrences
-* 160 Intersection of Two Linked Lists
-* 260 Single Number III
-* 1636 Sort Array by Increasing Frequency
-* EPI Pg 171: Nearest repeated entries in an array
-* 30 Substring with Concatenation of All Words
-* 76 Minimum Window Substring
-* 727 Minimum Window Subsequence
-* 748 Shortest Completing Word
-* 760 Find Anagram Mappings
-* 771 Jewels and Stones
-* 2540 Minimum Common Value
-* 734 Sentence Similarity
-* 884 Uncommon Words from Two Sentences
-* 888 Fair Candy Swap
-* 914 X of a Kind in a Deck of Cards
-* 929 Unique Email Addresses
-* 961 N-Repeated Element in Size 2N Array
-* 997 Find the Town Judge
-* 1002 Find Common Characters
-* 1122 Relative Sort Array
-* 1160 Find Words That Can Be Formed by Characters
-* 1165 Single-Row Keyboard
-* 1086 High Five
-* 1128 Number of Equivalent Domino Pairs
-* 249 Group Shifted Strings
-* 277 Find the Celebrity
-* 288 Unique Word Abbreviation
-* 299 Bulls and Cows
-* 325 Maximum Size Subarray Sum Equals k
+| Number | Problem                                           | Note                                    |
+|--------|---------------------------------------------------|-----------------------------------------|
+| 128    | Longest Consecutive Sequence                      |                                         |
+| 137    | Single Number II                                  |                                         |
+| 187    | Repeated DNA Sequences                            |                                         |
+| 387    | First Unique Character in a String                |                                         |
+| 1133   | Largest Unique Number                             |                                         |
+| 1189   | Maximum Number of Balloons                        |                                         |
+| 409    | Longest Palindrome                                |                                         |
+| 383    | Ransom Note                                       |                                         |
+| 706    | Design HashMap                                   |                                         |
+| 359    | Logger Rate Limiter                               |                                         |
+| 205    | Isomorphic Strings                                |                                         |
+| 953    | Verifying an Alien Dictionary                     |                                         |
+| 2215   | Find the Difference of Two Arrays                 |                                         |
+| 1207   | Unique Number of Occurrences                      |                                         |
+| 160    | Intersection of Two Linked Lists                  |                                         |
+| 260    | Single Number III                                 |                                         |
+| 1636   | Sort Array by Increasing Frequency                |                                         |
+| EPI Pg 171 | Nearest repeated entries in an array           |                                         |
+| 30     | Substring with Concatenation of All Words         |                                         |
+| 76     | Minimum Window Substring                          |                                         |
+| 727    | Minimum Window Subsequence                        |                                         |
+| 748    | Shortest Completing Word                          |                                         |
+| 760    | Find Anagram Mappings                             |                                         |
+| 771    | Jewels and Stones                                 |                                         |
+| 2540   | Minimum Common Value                              |                                         |
+| 734    | Sentence Similarity                               |                                         |
+| 884    | Uncommon Words from Two Sentences                 |                                         |
+| 888    | Fair Candy Swap                                   |                                         |
+| 914    | X of a Kind in a Deck of Cards                    |                                         |
+| 929    | Unique Email Addresses                            |                                         |
+| 961    | N-Repeated Element in Size 2N Array               |                                         |
+| 997    | Find the Town Judge                               |                                         |
+| 1002   | Find Common Characters                            |                                         |
+| 1122   | Relative Sort Array                               |                                         |
+| 1160   | Find Words That Can Be Formed by Characters       |                                         |
+| 1165   | Single-Row Keyboard                               |                                         |
+| 1086   | High Five                                         |                                         |
+| 1128   | Number of Equivalent Domino Pairs                 |                                         |
+| 249    | Group Shifted Strings                             |                                         |
+| 277    | Find the Celebrity                                |                                         |
+| 288    | Unique Word Abbreviation                          |                                         |
+| 299    | Bulls and Cows                                    |                                         |
+| 325    | Maximum Size Subarray Sum Equals k                |                                         |
 <br/>
 
 ### Heaps:
-* 1046 Last Stone Weight
-* 846 Hand of Straights
-* 1296 Divide Array in Sets of K Consecutive Numbers
-* 716 Max Stack
-* 347 Top K Frequent Elements
-* 215 Kth Largest Element in an Array
-* 692 Top K Frequent Words
-* EPI Pg 140: Sort almost sorted array
-* 1005 Maximize Sum Of Array After K Negations
+| Number | Problem                                         | Note                              |
+|--------|-------------------------------------------------|-----------------------------------|
+| 1046   | Last Stone Weight                               |                                   |
+| 846    | Hand of Straights                               |                                   |
+| 1296   | Divide Array in Sets of K Consecutive Numbers   |                                   |
+| 716    | Max Stack                                       |                                   |
+| 347    | Top K Frequent Elements                         |                                   |
+| 215    | Kth Largest Element in an Array                 |                                   |
+| 692    | Top K Frequent Words                            |                                   |
+| EPI Pg 140       | Sort almost sorted array            |                                   |
+| 1005   | Maximize Sum Of Array After K Negations         |                                   |
 <br/>
 
 ### Knowing what to track:
-* 219 Contains Duplicate II
-* 2255 Count Prefixes of a Given String
-* 266 Palindrome Permutation
-* 242 Valid Anagram
-* 348 Design Tic-Tac-Toe - Keep track of two lists int rows[n], int cols[n], plus two variables: diagonal, anti_diagonal
-* 49 Group Anagrams
-* 387 First Unique Character in a String
-* 438 Find All Anagrams in a String
-* 2131 Longest Palindrome by Concatenating Two Letter Words
-* 896 Monotonic Array
+| Number | Problem                                          | Note                                                                                     |
+|--------|--------------------------------------------------|------------------------------------------------------------------------------------------|
+| 219    | Contains Duplicate II                            |                                                                                          |
+| 2255   | Count Prefixes of a Given String                 |                                                                                          |
+| 266    | Palindrome Permutation                           |                                                                                          |
+| 242    | Valid Anagram                                    |                                                                                          |
+| 348    | Design Tic-Tac-Toe                              | Keep track of two lists `int rows[n]`, `int cols[n]`, plus two variables: diagonal, anti_diagonal |
+| 49     | Group Anagrams                                   |                                                                                          |
+| 387    | First Unique Character in a String               |                                                                                          |
+| 438    | Find All Anagrams in a String                    |                                                                                          |
+| 2131   | Longest Palindrome by Concatenating Two Letter Words |                                                                                          |
+| 896    | Monotonic Array                                  |                                                                                          |
 <br/>
 
 ### Custom Data Structures:
-* 1146 Snapshot Array
-* 981 Time Based Key-Value Store
-* 146 LRU Cache
-* 380 Insert Delete GetRandom O(1)
-* 341 Flatten Nested List Iterator
-* 155 Min Stack
-* 381 Insert Delete GetRandom O(1) - Duplicates allowed
-* 716 Max Stack
-* 460 LFU Cache
-* 933 Number of Recent Calls
-* 622 Design Circular Queue
-* EPI Pg 109: Circular queue
-* 232 Implement Queue using Stacks
-* EPI Pg 111: Max queue
+| Number | Problem                                       | Note                                |
+|--------|-----------------------------------------------|-------------------------------------|
+| 1146   | Snapshot Array                                |                                     |
+| 981    | Time Based Key-Value Store                    |                                     |
+| 146    | LRU Cache                                     |                                     |
+| 380    | Insert Delete GetRandom O(1)                  |                                     |
+| 341    | Flatten Nested List Iterator                  |                                     |
+| 155    | Min Stack                                     |                                     |
+| 381    | Insert Delete GetRandom O(1) - Duplicates allowed |                                   |
+| 716    | Max Stack                                     |                                     |
+| 460    | LFU Cache                                     |                                     |
+| 933    | Number of Recent Calls                        |                                     |
+| 622    | Design Circular Queue                         |                                     |
+| EPI Pg 109       | Circular queue                    |                                     |
+| 232    | Implement Queue using Stacks                  |                                     |
+| EPI Pg 111       | Max queue                         |                                     |
 <br/>
 
 ### Divide and Conquer:
-* 22 Generate Parentheses
-* 53 Maximum Subarray
-* 240 Search a 2D Matrix II
+| Number | Problem                 | Note                   |
+| ------ | ----------------------- | ---------------------- |
+| 22     | Generate Parentheses    |                        |
+| 53     | Maximum Subarray        |                        |
+| 240    | Search a 2D Matrix II   |                        |
 <br/>
 
 ### Design:
-* 155 Min Stack
-* 146 LRU Cache
-* 173 Binary Search Tree Iterator
-* 341 Flatten Nested List Iterator
-* 232 Implement Queue using Stacks
-* 208 Implement Trie (Prefix Tree)
-* 211 Design Add and Search Words Data Structure
-* 1146 Snapshot Array
-* 981 Time Based Key-Value Store
-* 380 Insert Delete GetRandom O(1)
-* 381 Insert Delete GetRandom O(1) - Duplicates allowed
-* 716 Max Stack
-* 460 LFU Cache
-* 933 Number of Recent Calls
-* 622 Design Circular Queue
-* EPI Pg 109: Circular queue
-* 232 Implement Queue using Stacks
-* EPI Pg 111: Max queue
-* 705 Design HashSet
-* 706 Design HashMap
-* 244 Shortest Word Distance II
-* 288 Unique Word Abbreviation
-* 251 Flatten 2D Vector
-* 284 Peeking Iterator
-* 304 Range Sum Query 2D - Immutable
+| Number | Problem                                       | Note                                     |
+|--------|-----------------------------------------------|------------------------------------------|
+| 155    | Min Stack                                     |                                          |
+| 146    | LRU Cache                                     |                                          |
+| 173    | Binary Search Tree Iterator                    |                                          |
+| 341    | Flatten Nested List Iterator                   |                                          |
+| 232    | Implement Queue using Stacks                  |                                          |
+| 208    | Implement Trie (Prefix Tree)                   |                                          |
+| 211    | Design Add and Search Words Data Structure     |                                          |
+| 1146   | Snapshot Array                                |                                          |
+| 981    | Time Based Key-Value Store                    |                                          |
+| 380    | Insert Delete GetRandom O(1)                  |                                          |
+| 381    | Insert Delete GetRandom O(1) - Duplicates allowed |                                      |
+| 716    | Max Stack                                     |                                          |
+| 460    | LFU Cache                                     |                                          |
+| 933    | Number of Recent Calls                        |                                          |
+| 622    | Design Circular Queue                         |                                          |
+| EPI Pg 109       | Circular queue                    |                                          |
+| 232    | Implement Queue using Stacks                  |                                          |
+| EPI Pg 111       | Max queue                         |                                          |
+| 705    | Design HashSet                                |                                          |
+| 706    | Design HashMap                                |                                          |
+| 244    | Shortest Word Distance II                     |                                          |
+| 288    | Unique Word Abbreviation                      |                                          |
+| 251    | Flatten 2D Vector                             |                                          |
+| 284    | Peeking Iterator                              |                                          |
+| 304    | Range Sum Query 2D - Immutable                |                                          |
 <br/>
 
 ### Sorting:
-* 179 Largest Number - Custom sorting
-* Kth Smallest Number (Designgurus) - Quicksort
-* 2161 Partition Array According to Given Pivot
-* EPI Pg 51: Alternating array
-* 912 Sort an Array
-* 905 Sort Array By Parity
-* 922 Sort Array By Parity II
-* 1030 Matrix Cells in Distance Order
-* 1051 Height Checker
-* 1122 Relative Sort Array
-* 1086 High Five
-* 274 H-Index
-* 280 Wiggle Sort
-* 324 Wiggle Sort II
+| Number | Problem                                         | Note                    |
+|--------|-------------------------------------------------|-------------------------|
+| 179    | Largest Number - Custom sorting                 |                         |
+| 912    | Sort an Array                                   |                         |
+| 905    | Sort Array By Parity                            |                         |
+| 922    | Sort Array By Parity II                         |                         |
+| 1030   | Matrix Cells in Distance Order                  |                         |
+| 1051   | Height Checker                                  |                         |
+| 1122   | Relative Sort Array                             |                         |
+| 1086   | High Five                                       |                         |
+| 274    | H-Index                                         |                         |
+| 280    | Wiggle Sort                                     |                         |
+| 324    | Wiggle Sort II                                  |                         |
+| 2161   | Partition Array According to Given Pivot        |                         |
+| EPI Pg 51 | Alternating array                             |                         |
+| Designgurus: Kth Smallest Number | Quicksort         |                         |
 <br/>
 
 ### Geometry:
-* 836 Rectangle Overlap
-* 812 Largest Triangle Area
-* 883 Projection Area of 3D Shapes
-* 892 Surface Area of 3D Shapes
-* 1037 Valid Boomerang
-* 1030 Matrix Cells in Distance Order
-* 223 Rectangle Area
+| Number | Problem                           | Note                           |
+|--------|-----------------------------------|--------------------------------|
+| 836    | Rectangle Overlap                 |                                |
+| 812    | Largest Triangle Area             |                                |
+| 883    | Projection Area of 3D Shapes      |                                |
+| 892    | Surface Area of 3D Shapes         |                                |
+| 1037   | Valid Boomerang                   |                                |
+| 1030   | Matrix Cells in Distance Order    |                                |
+| 223    | Rectangle Area                    |                                |
 <br/>
 
 ### Counting sort:
-* 561 Array Partition
-* 274 H-Index
-* 912 Sort an Array
-* 1051 Height Checker
-* 1122 Relative Sort Array
-* 324 Wiggle Sort II
+| Number | Problem                | Note               |
+|--------|------------------------|--------------------|
+| 561    | Array Partition        |                    |
+| 274    | H-Index                |                    |
+| 912    | Sort an Array          |                    |
+| 1051   | Height Checker         |                    |
+| 1122   | Relative Sort Array    |                    |
+| 324    | Wiggle Sort II         |                    |
 <br/>
 
 ### Segment tree:
-* 307 Range Sum Query - Mutable
+| Number | Problem                  | Note               |
+|--------|--------------------------|--------------------|
+| 307    | Range Sum Query - Mutable|                    |
 <br/>
 
 ### Binary indexed tree:
-* 307 Range Sum Query - Mutable
+| Number | Problem                  | Note               |
+|--------|--------------------------|--------------------|
+| 307    | Range Sum Query - Mutable|                    |
 <br/>
 
 ### Famous Algorithms:
-* 53 Maximum Subarray - Kadane's algorithm
-* 152 Maximum Product Subarray - Kadane's algorithm product variant
-* 287 Find the Duplicate Number - Floyd's Tortoise and Hare (Cycle Detection)
-* 94 Binary Tree Inorder Traversal - Iterative, Morris traversal, Constant space with parent pointers from EPI
-* 144 Binary Tree Preorder Traversal - Iterative, Morris traversal
-* 145 Binary Tree Postorder Traversal - Iterative, Morris traversal
-* 109 Convert Sorted List to Binary Search Tree - Inorder simulation
-* 105 Construct Binary Tree from Preorder and Inorder Traversal - Preorder simulation
-* 106 Construct Binary Tree from Inorder and Postorder Traversal - Postorder simulation
-* 1008 Construct Binary Search Tree from Preorder Traversal - Preorder simulation
-* 5 Longest Palindromic Substring - Manacher's Algorithm
-* 28 Find the Index of the First Occurrence in a String - Rabin-Karp, Knuth–Morris–Pratt Algorithm
-* 215 Kth Largest Element in an Array - Quickselect, Hoare's selection algorithm
-* 229 Majority Element II - Boyer-Moore Voting Algorithm
+| Number | Problem                                                   | Note                                         |
+|--------|-----------------------------------------------------------|----------------------------------------------|
+| 53     | Maximum Subarray - Kadane's algorithm                      |                                              |
+| 152    | Maximum Product Subarray - Kadane's algorithm product variant |                                          |
+| 287    | Find the Duplicate Number - Floyd's Tortoise and Hare (Cycle Detection) |                                |
+| 94     | Binary Tree Inorder Traversal - Iterative, Morris traversal, Constant space with parent pointers from EPI | |
+| 144    | Binary Tree Preorder Traversal - Iterative, Morris traversal |                                      |
+| 145    | Binary Tree Postorder Traversal - Iterative, Morris traversal |                                     |
+| 109    | Convert Sorted List to Binary Search Tree - Inorder simulation |                                |
+| 105    | Construct Binary Tree from Preorder and Inorder Traversal - Preorder simulation |             |
+| 106    | Construct Binary Tree from Inorder and Postorder Traversal - Postorder simulation |         |
+| 1008   | Construct Binary Search Tree from Preorder Traversal - Preorder simulation |                  |
+| 5      | Longest Palindromic Substring - Manacher's Algorithm       |                                              |
+| 28     | Find the Index of the First Occurrence in a String - Rabin-Karp, Knuth–Morris–Pratt Algorithm | |
+| 215    | Kth Largest Element in an Array - Quickselect, Hoare's selection algorithm |                |
+| 229    | Majority Element II - Boyer-Moore Voting Algorithm         |                                              |
 <br/>
 
 ### Language questions:
-* EPI Pg 332: Closures
-* EPI Pg 334: Decorators
-* EPI Pg 338: Python code
+| Number | Problem                  | Note            |
+|--------|--------------------------|-----------------|
+| EPI Pg 332 | Closures                 |                 |
+| EPI Pg 334 | Decorators               |                 |
+| EPI Pg 338 | Python code              |                 |
 <br/>
