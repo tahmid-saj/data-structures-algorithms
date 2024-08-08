@@ -1,89 +1,72 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
-        # return self.recursive(s, -1, 0)
-        
-        # return self.recursive2(s, 0)
+        return self.recursive(s, 0)
 
-        # dp = [-1 for _ in range(len(s))]
-        # return self.recursiveTopDown(s, -1, 0, dp)
+        # dp = {}
+        # return self.topDown(s, 0, dp)
 
-        # dp = [0 for _ in range(len(s) + 1)]
+        # dp = [0 for i in range(len(s))]
         # return self.bottomUp(s, dp)
 
-        return self.bottomUpConstantSpace(s)
+        # return self.bottomUpConstantSpace(s)
 
-    def recursive(self, s, index, digits):
-        if index > len(s): return 0
+    def recursive(self, s, index):
         if index == len(s): return 1
-        if index != -1 and s[index] == "0": return 0
-        if digits != 0 and s[index:index + digits].isnumeric() and (int(s[index:index + digits]) < 1 or int(s[index:index + digits]) > 26): return 0
+        if index > len(s) or s[index] == "0": return 0
+
+        res1, res2 = 0, 0
+        res1 += self.recursive(s, index + 1)
+        
+        if index + 1 < len(s):
+            num = s[index:index + 2]
+            if 0 <= int(num) and int(num) <= 26: res2 += self.recursive(s, index + 2)
+        
+        return res1 + res2
+
+    def topDown(self, s, index, dp):
+        if index in dp: return dp[index]
+
+        if index == len(s): return 1
+        if index > len(s): return 0
+        if s[index] == "0": return 0
 
         res = 0
-        if digits < 2: 
-            res += self.recursive(s, index + 1, 1)
-            if index + 2 < len(s): res += self.recursive(s, index + 1, 2)
-        elif digits == 2:
-            res += self.recursive(s, index + 2, 1)
-            if index + 2 < len(s): res += self.recursive(s, index + 2, 2)
-
-        return res
-    
-    def recursive2(self, s, index):
-        if index > len(s): return 0
-        if index == len(s): return 1
-        if s[index] == "0": return 0
-        if index == len(s) - 1: return 1
-
-        res = self.recursive2(s, index + 1)
-        if int(s[index:index + 2]) > 0 and int(s[index:index + 2]) <= 26: res += self.recursive2(s, index + 2)
-
-        return res
-
-    def recursiveTopDown(self, s, index, digits, dp):
-        if index > len(s): return 0
-        if index == len(s): return 1
-        if index != -1 and s[index] == "0": return 0
-        if digits != 0 and s[index:index + digits].isnumeric() and (int(s[index:index + digits]) < 1 or int(s[index:index + digits]) > 26): return 0
-
-        if digits < 2:
-            if dp[index] == -1:
-                dp[index] = self.recursiveTopDown(s, index + 1, 1, dp)
-                if index + 2 < len(s): dp[index] += self.recursive(s, index + 1, 2)
-        if digits == 2:
-            if dp[index] == -1:
-                dp[index] = self.recursiveTopDown(s, index + 2, 1, dp)
-                if index + 2 < len(s): dp[index] += self.recursive(s, index + 2, 2)
+        if index + 1 <= len(s): res += self.recursive(s, index + 1)
+        if index + 2 <= len(s):
+            if int(s[index:index + 2]) > 0 and int(s[index:index + 2]) <= 26: res += self.recursive(s, index + 2)
         
+        dp[index] = res
+
         return dp[index]
-    
+
     def bottomUp(self, s, dp):
-        if len(s) == 1 and s[0] == "0": return 0
-        if len(s) == 1: return 1
-        
+        if s[0] == "0": return 0
         dp[0] = 1
-        if s[0] != "0": dp[1] = 1
 
-        for i in range(2, len(s) + 1):
-            if s[i - 1] != "0": dp[i] = dp[i - 1]
+        for i in range(1, len(s)):
+            if s[i] != "0": dp[i] = dp[i - 1]
+            twoDigit = s[i - 1:i + 1]
+            if twoDigit[0] != "0" and int(twoDigit) > 0 and int(twoDigit) <= 26:
+                if i == 1: dp[i] += 1
+                else: dp[i] += dp[i - 2]
 
-            twoDigit = s[i - 2:i]
-            if int(twoDigit) >= 10 and int(twoDigit) <= 26: dp[i] += dp[i - 2]
-        
-        return dp[len(s)]
+        return dp[len(s) - 1]
     
     def bottomUpConstantSpace(self, s):
-        if len(s) == 1 and s[0] == "0": return 0
-        if len(s) == 1: return 1
         if s[0] == "0": return 0
-
-        twoPrev, onePrev = 1, 1
-        for i in range(2, len(s) + 1):
-            curr = 0
-            if s[i - 1] != "0": curr = onePrev
-
-            twoDigit = s[i - 2:i]
-            if int(twoDigit) >= 10 and int(twoDigit) <= 26: curr += twoPrev
-            twoPrev = onePrev
-            onePrev = curr
+        if len(s) == 1: return 1
+        
+        prev, curr = 1, 0
+        if s[1] != "0": curr = prev
+        twoDigit = s[0:2]
+        if int(twoDigit) > 0 and int(twoDigit) <= 26: curr += 1
+        
+        for i in range(2, len(s)):
+            tmp = 0
+            if s[i] != "0": tmp = curr
+            twoDigit = s[i - 1:i + 1]
+            if twoDigit[0] != "0" and int(twoDigit) > 0 and int(twoDigit) <= 26: tmp += prev
+            prev = curr
+            curr = tmp
         
         return curr
