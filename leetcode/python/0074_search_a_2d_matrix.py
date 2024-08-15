@@ -1,7 +1,6 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         # return self.binarySearch2D(matrix, target)
-
         return self.binarySearchPivot(matrix, target)
 
     def binarySearch2D(self, matrix, target):
@@ -28,14 +27,11 @@ class Solution:
         return False
     
     def binarySearchPivot(self, matrix, target):
-        l, r = 0, (len(matrix)) * (len(matrix[0])) - 1
-
+        l, r = 0, len(matrix) * len(matrix[0]) - 1
         while l <= r:
-            pivot = (l + r) // 2
-            middle = [pivot // len(matrix[0]), pivot % len(matrix[0])]
-
-            if matrix[middle[0]][middle[1]] == target: return True
-            if matrix[middle[0]][middle[1]] < target: l = pivot + 1
-            elif matrix[middle[0]][middle[1]] > target: r = pivot - 1
-        
+            middle = l + (r - l) // 2
+            i, j = (middle // len(matrix[0])), (middle % len(matrix[0]))
+            if matrix[i][j] == target: return True
+            if matrix[i][j] < target: l = middle + 1
+            else: r = middle - 1
         return False
