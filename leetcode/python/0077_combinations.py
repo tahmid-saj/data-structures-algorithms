@@ -1,25 +1,17 @@
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
-        # if len(comb) == k: res.append(list(comb)), return
-        # for i in range(index, n + 1):
-        #   comb.append(i)
-        #   self.backtrack(n, k, comb, i + 1)
-        #   comb.pop()
-
         self.res = []
-        # self.backtrack(n, k, [], 1)
-        # return self.res
+        self.backtrack(n, k, [], 1)
+        return self.res
 
-        self.ans = []
-        self.backtrack2(n, k, [], 1)
-        return self.ans
+        # self.ans = []
+        # self.backtrack2(n, k, [], 1)
+        # return self.ans
     
     def backtrack(self, n, k, comb, index):
         if len(comb) == k:
             self.res.append(list(comb))
             return
-        
-        if len(comb) == 0 and index == n and n != 1: return
         
         for i in range(index, n + 1):
             comb.append(i)
