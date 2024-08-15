@@ -14,27 +14,27 @@ class Solution:
 
     def dp2D(self, grid, dp):
         for i in range(len(grid)):
-            dp[i][0] = grid[i][0]
-            if i > 0: dp[i][0] += dp[i - 1][0]
-        
-        for i in range(1, len(grid[0])):
-            dp[0][i] = dp[0][i - 1] + grid[0][i]
+            if i > 0: dp[i][0] = dp[i - 1][0] + grid[i][0]
+            else: dp[i][0] = grid[i][0]
+        for j in range(1, len(grid[0])):
+            dp[0][j] = dp[0][j - 1] + grid[0][j]
         
         for i in range(1, len(grid)):
             for j in range(1, len(grid[0])):
-                dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]) + grid[i][j]
+                dp[i][j] = grid[i][j]
+                dp[i][j] += min(dp[i - 1][j], dp[i][j - 1])
         
         return dp[len(grid) - 1][len(grid[0]) - 1]
     
     def dp1D(self, grid, dp):
-        for i in range(len(grid[0])):
-            dp[i] = grid[0][i]
-            if i > 0: dp[i] += dp[i - 1]
+        for j in range(len(grid[0])):
+            if j > 0: dp[j] = dp[j - 1] + grid[0][j]
+            else: dp[j] = grid[0][j]
         
         for i in range(1, len(grid)):
-            for j in range(0, len(grid[0])):
-                if j > 0: dp[j] = min(dp[j - 1], dp[j]) + grid[i][j]
-                else: dp[j] = dp[j] + grid[i][j]
+            for j in range(len(grid[0])):
+                if j > 0: dp[j] = min(dp[j - 1], dp[j])
+                dp[j] += grid[i][j]
         
         return dp[-1]
 
@@ -42,11 +42,11 @@ class Solution:
         for i in range(len(grid)):
             if i > 0: grid[i][0] += grid[i - 1][0]
         
-        for i in range(1, len(grid[0])):
-            grid[0][i] += grid[0][i - 1]
+        for j in range(1, len(grid[0])):
+            grid[0][j] += grid[0][j - 1]
         
         for i in range(1, len(grid)):
             for j in range(1, len(grid[0])):
-                grid[i][j] += min(grid[i - 1][j], grid[i][j - 1])
+                grid[i][j] = grid[i][j] + min(grid[i - 1][j], grid[i][j - 1])
         
-        return grid[len(grid) - 1][len(grid[0]) - 1]
+        return grid[-1][-1]
