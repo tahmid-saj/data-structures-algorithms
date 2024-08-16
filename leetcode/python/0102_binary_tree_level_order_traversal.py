@@ -27,16 +27,15 @@ class Solution:
         return res
 
     def recursive(self, root):
-        if root == None: return []
+        if not root: return []
         self.res = []
 
         def helper(node, level):
-            if len(self.res) == level: self.res.append([])
-
+            if len(self.res) < level + 1: self.res.append([])
             self.res[level].append(node.val)
 
             if node.left: helper(node.left, level + 1)
             if node.right: helper(node.right, level + 1)
-
+        
         helper(root, 0)
         return self.res
