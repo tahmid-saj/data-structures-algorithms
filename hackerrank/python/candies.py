@@ -1,26 +1,14 @@
-def candies(k, score):
-  # give one candy to everybody woohoo
-  candy = [1 for x in range(n)]
+def candies(n, arr):
+  # Write your code here
+  # candies[0] = 1
+  # loop through arr using i from (1, len(arr)):
+  #   if arr[i - 1] < arr[i]: candies[i] = candies[i] + 1
+  #   else: candies[i] = 1
+  cand = [1 for _ in range(len(arr))]
+  for i in range(1, len(arr)):
+    if arr[i - 1] < arr[i]: cand[i] = cand[i - 1] + 1
   
-  # iterate from start,
-  # give one more candy
-  # if next preson's score
-  # is more than previous person's
-  for i in range(1, n, 1):
-    if score[i] > score[i-1]:
-      candy[i] = candy[i-1] +1
+  for i in range(len(arr) - 2, -1, -1):
+    if arr[i] > arr[i + 1] and cand[i] <= cand[i + 1]: cand[i] += (cand[i + 1] - cand[i]) + 1
   
-  # iterate from the end,
-  # give one more candy
-  # if next preson's score
-  # is more than previous person's
-  # and candy is not more than previous person's
-  for i in range(n-1, 0, -1):
-    if score[i-1] > score[i] and candy[i-1] <= candy[i]:
-      candy[i-1] = candy[i] +1
-  
-  # print(candy)
-  
-  total = sum(candy)
-  
-  return total
+  return sum(cand)
