@@ -8,7 +8,7 @@ def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
     node.right = helper(middle + 1, r)
     return node
 
-    return helper(0, len(nums) - 1)
+  return helper(0, len(nums) - 1)
 
 # inorder and preorder arrays to binary tree
 class Solution:
