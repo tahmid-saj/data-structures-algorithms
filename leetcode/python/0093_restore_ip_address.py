@@ -9,26 +9,34 @@ class Solution:
         #           comb += s[i:i + 3] + ".", self.backtrack(s, comb, i + 3), comb = comb[:-4]
 
         self.res = []
-        self.backtrack(s, 0, "", 0)
+        self.backtrack(s, 0, [])
         return self.res
     
     def backtrack(self, s, index, comb, digits):
-        if index == len(s) and digits == 4:
-            self.res.append(str(comb[:-1]))
+        if index == len(s) and len(comb) == 4:
+            self.res.append("".join(comb)[:-1])
             return
-        if digits > 4 or index >= len(s): return
+        if index >= len(s): return
+        if len(comb) >= 4: return
 
-        # one digit
-        sub = s[index:index + 1]
-        self.backtrack(s, index + 1, comb + sub + ".", digits + 1)
+        # single digit
+        comb.append(s[index] + ".")
+        self.backtrack(s, index + 1, comb)
+        comb.pop()
 
-        # two digits
-        sub = s[index:index + 2]
-        if sub[0] != "0": self.backtrack(s, index + 2, comb + sub + ".", digits + 1)
-
-        # three digits
-        sub = s[index:index + 3]
-        if sub[0] != "0" and int(sub) >= 0 and int(sub) <= 255: self.backtrack(s, index + 3, comb + sub + ".", digits + 1)
+        # double digits
+        num = s[index: index + 2]
+        if num[0] != "0":
+            comb.append(num + ".")
+            self.backtrack(s, index + 2, comb)
+            comb.pop()
+        
+        # triple digits
+        num = s[index: index + 3]
+        if num[0] != "0" and 0 <= int(num) <= 255:
+            comb.append(num + ".")
+            self.backtrack(s, index + 3, comb)
+            comb.pop()
 
     def iterative(self, s):
         res = []
