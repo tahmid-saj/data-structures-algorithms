@@ -10,6 +10,8 @@ def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
 
   return helper(0, len(nums) - 1)
 
+# sorted linked list to binary search tree
+
 # inorder and preorder arrays to binary tree
 class Solution:
   def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
