@@ -76,7 +76,7 @@ class Solution:
     return res
 
   def iterativeOneStack(self, root):
-    if root == None: return []
+    if not root: return []
     new, leftDone, rightDone = 0, 1, 2
     res, stk = [], [(root, new)]
 
@@ -87,7 +87,7 @@ class Solution:
         res.append(node.val)
       else:
         stk[-1] = (stk[-1][0], stk[-1][1] + 1)
-        nextNode = [node.left, node.right][status]
-        if nextNode != None: stk.append((nextNode, new))
-
+        nextNode = node.left if status == new else node.right
+        if nextNode: stk.append((nextNode, new))
+    
     return res
