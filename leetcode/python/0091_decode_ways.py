@@ -12,15 +12,15 @@ class Solution:
 
     def recursive(self, s, index):
         if index == len(s): return 1
-        if index > len(s) or s[index] == "0": return 0
+        if index > len(s): return 0
+        if s[index] == "0": return 0
 
         res1, res2 = 0, 0
-        res1 += self.recursive(s, index + 1)
+        res1 = self.recursive(s, index + 1)
         
-        if index + 1 < len(s):
-            num = s[index:index + 2]
-            if 0 <= int(num) and int(num) <= 26: res2 += self.recursive(s, index + 2)
-        
+        num = s[index: index + 2]
+        if 0 < int(num) <= 26: res2 = self.recursive(s, index + 2)
+
         return res1 + res2
 
     def topDown(self, s, index, dp):
