@@ -44,14 +44,14 @@ class Solution:
     return self.morrisTraversal(root)
 
   def iterative(self, root):
+    if not root: return []
     stk, res = [root], []
 
-    while stk and root:
+    while stk:
       node = stk.pop()
-      if node:
-        res.append(node.val)
-        if node.right: stk.append(node.right)
-        if node.left: stk.append(node.left)
+      res.append(node.val)
+      if node.right: stk.append(node.right)
+      if node.left: stk.append(node.left)
 
     return res
 
