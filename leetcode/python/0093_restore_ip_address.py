@@ -40,33 +40,26 @@ class Solution:
 
     def iterative(self, s):
         res = []
-        queue = [("", 0, 0)]
-
+        queue = deque([([], 0)]) # holds (comb, index)
 
         while queue:
-            comb = queue.pop(0)
+            comb, index = queue.popleft()
 
-            if comb[2] > 4: continue
+            if index == len(s) and len(comb) == 4:
+                res.append("".join(comb)[:-1])
+                continue
+            if index >= len(s): continue
+            if len(comb) >= 4: continue
 
-            if comb[1] + 1 <= len(s):
-                oneDigit = str(comb[0] + s[comb[1]] + ".")
+            # single digit
+            queue.append((comb + [s[index] + "."], index + 1))
 
-                if comb[2] + 1 == 4 and comb[1] + 1 == len(s): res.append(str(oneDigit[:-1]))
-                else: queue.append((oneDigit, comb[1] + 1, comb[2] + 1))
+            # double digits
+            num = s[index: index + 2]
+            if num[0] != "0": queue.append((comb + [num + "."], index + 2))
 
-                if s[comb[1]] != "0" and comb[1] + 2 <= len(s):
-                    twoDigit = str(comb[0] + s[comb[1]:comb[1] + 2] + ".")
-
-                    if comb[2] + 1 == 4 and comb[1] + 2 == len(s): res.append(str(twoDigit[:-1]))
-                    else: queue.append((twoDigit, comb[1] + 2, comb[2] + 1))
-
-                    if int(s[comb[1]:comb[1] + 3]) <= 255 and comb[1] + 3 <= len(s):
-                        threeDigit = str(comb[0] + s[comb[1]:comb[1] + 3] + ".")
-
-                        if comb[2] + 1 == 4 and comb[1] + 3 == len(s): res.append(str(threeDigit[:-1]))
-                        else: queue.append((threeDigit, comb[1] + 3, comb[2] + 1))
-                    else: continue
-                else: continue
-            else: continue
-
+            # triple digits
+            num = s[index: index + 3]
+            if num[0] != "0" and 0 <= int(num) <= 255: queue.append((comb + [num + "."], index + 3))
+        
         return res
