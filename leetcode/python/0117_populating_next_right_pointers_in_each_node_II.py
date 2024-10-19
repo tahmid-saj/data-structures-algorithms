@@ -14,20 +14,19 @@ class Solution:
         return self.constantSpace(root)
     
     def bfs(self, root):
-        if root == None: return None
-        queue = deque([root])
+        if not root: return None
+        prev, queue = None, deque([root])
 
         while queue:
-            length = len(queue)
+            queueLength = len(queue)
             prev = None
-            for i in range(length):
+            for _ in range(queueLength):
                 node = queue.popleft()
                 node.next = prev
                 prev = node
-
                 if node.right: queue.append(node.right)
                 if node.left: queue.append(node.left)
-        
+
         return root
     
     def constantSpace(self, root):
