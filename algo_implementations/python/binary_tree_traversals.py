@@ -63,18 +63,16 @@ class Solution:
     return self.morrisTraversal(root)
 
   def iterativeTwoStacks(self, root):
-    if root == None: return []
-    res, stk1, stk2 = [], [root], []
+    if not root: return []
+    res, resPreorder, stk = [], [], [root]
 
-    while stk1:
-      curr = stk1.pop()
-      stk2.append(curr)
-
-      if curr.left: stk1.append(curr.left)
-      if curr.right: stk1.append(curr.right)
-
-    while stk2: res.append(stk2.pop().val)
-
+    while stk:
+      node = stk.pop()
+      resPreorder.append(node.val)
+      if node.left: stk.append(node.left)
+      if node.right: stk.append(node.right)
+    
+    while resPreorder: res.append(resPreorder.pop())
     return res
 
   def iterativeOneStack(self, root):
