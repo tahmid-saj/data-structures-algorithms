@@ -1,5 +1,4 @@
 class TicTacToe:
-
     def __init__(self, n: int):
         self.rows = [0 for _ in range(n)]
         self.cols = [0 for _ in range(n)]
@@ -8,18 +7,25 @@ class TicTacToe:
         self.n = n
 
     def move(self, row: int, col: int, player: int) -> int:
-        player = 1 if player == 1 else -1
+        update = 1 if player == 1 else -1
+        # update rows
+        self.rows[row] += update
+        if self.rows[row] == (update * self.n): return 1 if player == 1 else 2
 
-        self.rows[row] += player
-        self.cols[col] += player
-        if row == col: self.diag += player
-        if row == (self.n - 1 - col): self.antiDiag += player
+        # update cols
+        self.cols[col] += update
+        if self.cols[col] == (update * self.n): return 1 if player == 1 else 2
 
-        if abs(self.rows[row]) == self.n or abs(self.cols[col]) == self.n or abs(self.diag) == self.n or abs(self.antiDiag) == self.n:
-            if player == 1: return 1
-            elif player == -1: return 2
+        # update diag and antiDiag
+        if col == row: self.diag += update
+        if row + col == self.n - 1: self.antiDiag += update
+
+        # check if the game is won on diags
+        if self.diag == (update * self.n): return 1 if player == 1 else 2
+        if self.antiDiag == (update * self.n): return 1 if player == 1 else 2
 
         return 0
+
 
 # Your TicTacToe object will be instantiated and called as such:
 # obj = TicTacToe(n)
