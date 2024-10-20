@@ -167,6 +167,7 @@
 | 298    | Binary Tree Longest Consecutive Sequence                |                                                            |
 | 314    | Binary Tree Vertical Order Traversal                    |                                                            |
 | 339    | Nested List Weight Sum                                  |                                                            |
+| 1706    | Where Will the Ball Fall                                 |                                                            |
 <br/>
 
 ### BFS:
