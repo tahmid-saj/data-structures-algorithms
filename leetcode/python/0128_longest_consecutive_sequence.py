@@ -45,15 +45,15 @@ class Solution:
     
     def cubicTime(self, nums):
         if len(nums) == 0: return 0
-        res, curr = 1, 1
+        res = 1
 
-        for num in nums:
-            curr = 1
-            
-            while num + 1 in nums:
-                num += 1
-                curr += 1
-            res = max(res, curr)
+        for i in range(len(nums)):
+            consecutive, offset = True, 1
+            while consecutive:
+                if nums[i] + offset in nums: 
+                    offset += 1
+                    res = max(res, offset)
+                else: consecutive = False
         
         return res
 
