@@ -75,18 +75,16 @@ class Solution:
     def linearTime(self, nums):
         if len(nums) == 0: return 0
         numSet = set(nums)
+        res = 1
 
-        res, curr = 1, 1
+        for i in range(len(nums)):
+            if nums[i] - 1 not in numSet:
+                curr, currNum = 1, nums[i] + 1
 
-        for num in nums:
-            # only look for start of the consecutive sequence
-            if num - 1 not in numSet:
-                curr = 1
-                currNum = num
-
-                while currNum + 1 in numSet:
+                while currNum in numSet:
                     curr += 1
                     currNum += 1
-            res = max(res, curr)
-
+            
+                res = max(res, curr)
+        
         return res
