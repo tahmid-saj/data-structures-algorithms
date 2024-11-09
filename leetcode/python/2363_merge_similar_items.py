@@ -2,38 +2,35 @@ from collections import defaultdict
 
 class OrderedSet:
     def __init__(self):
-        self.orderedset = []
+        self.set = set()
+        self.nums = []
     
-    def add(self, element):
-        for e in self.orderedset:
-            if element[0] == e[0]:
-                k = self.orderOfKey(element)
-                self.orderedset[k][1] += element[1]
-                self.orderedset.sort(key=lambda x: x[0])
-                return
-        self.orderedset.append(element)
-        self.orderedset.sort(key=lambda x: x[0])
+    def add(self, x):
+        if x[0] not in self.set:
+            self.set.add(x[0])
+            self.nums.append(x)
+            self.nums.sort(key=lambda x: x[0])
+        else:
+            i = self.orderOfKey(x[0])
+            self.nums[i][1] += x[1]
     
-    def findByOrder(self, k):
-        if k < 0 or k >= len(self.orderedset): return None
-        return self.orderedset[k]
+    def findByOrder(self, i):
+        if i < 0 or i >= len(self.nums): return None
+        return self.nums[i]
     
-    def orderOfKey(self, element):
-        return sum(1 for x in self.orderedset if x[0] < element[0])
+    def orderOfKey(self, x):
+        return sum(1 for val in self.nums if val[0] < x)
 
 class Solution:
     def mergeSimilarItems(self, items1: List[List[int]], items2: List[List[int]]) -> List[List[int]]:
-        # return self.orderedSet(items1, items2)
-        return self.orderedDict(items1, items2)
+        return self.orderedSet(items1, items2)
+        # return self.orderedDict(items1, items2)
 
     def orderedSet(self, items1, items2):
-        orderedset = OrderedSet()
-        maxLength = max(len(items1), len(items2))
-        for i in range(maxLength):
-            if i < len(items1): orderedset.add(items1[i])
-            if i < len(items2): orderedset.add(items2[i])
-        
-        return orderedset.orderedset
+        orderedSet = OrderedSet()
+        for item in items1: orderedSet.add(item)
+        for item in items2: orderedSet.add(item)
+        return orderedSet.nums
     
     def orderedDict(self, items1, items2):
         merged = defaultdict(int)
