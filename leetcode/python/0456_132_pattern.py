@@ -4,12 +4,10 @@ class Solution:
     
     def monotonicStack(self, nums):
         stk = []
-        secondMax = -math.inf
-
+        twoNum = -math.inf
         for i in range(len(nums) - 1, -1, -1):
-            if nums[i] < secondMax: return True
-            while stk and stk[-1] < nums[i]:
-                secondMax = stk.pop()
+            if nums[i] < twoNum: return True
+            while stk and nums[i] > stk[-1]: twoNum = stk.pop()
             stk.append(nums[i])
         
         return False
