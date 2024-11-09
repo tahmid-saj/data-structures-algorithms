@@ -1,11 +1,11 @@
 class UnionFind:
-  def __init__(self):
-    self.parent = []
-  
+  def __init__(self, n):
+    self.parent = [i for i in range(n)]
+    
   def find(self, i):
     if self.parent[i] == i: return i
     return self.find(self.parent[i])
-  
+
   def union(self, i, j):
     iRep = self.find(i)
     jRep = self.find(j)
@@ -13,24 +13,24 @@ class UnionFind:
     if iRep == jRep: return
     
     self.parent[iRep] = jRep
-
+    
 class UnionFindOptimized:
   def __init__(self, n):
     self.rank = [1 for _ in range(n)]
     self.parent = [i for i in range(n)]
   
-  def find(self, x):
-    if self.parent[x] != x: self.parent[x] = self.find(self.parent[x])
-    return self.parent[x]
-
-  def union(self, x, y):
-    xSet = self.find(x)
-    ySet = self.find(y)
+  def find(self, i):
+    if self.parent[i] != i: self.parent[i] = self.find(self.parent[i])
+    return self.parent[i]
+  
+  def union(self, i, j):
+    iRep = self.find(i)
+    jRep = self.find(j)
     
-    if xSet == ySet: return
+    if iRep == jRep: return
     
-    if self.rank[xSet] < self.rank[ySet]: self.parent[xSet] = ySet
-    elif self.rank[xSet] > self.rank[ySet]: self.parent[ySet] = xSet
+    if self.rank[iRep] < self.rank[jRep]: self.parent[iRep] = jRep
+    elif self.rank[iRep] > self.rank[jRep]: self.parent[jRep] = iRep
     else:
-      self.parent[ySet] = xSet
-      self.rank[xSet] += 1
+      self.parent[iRep] = jRep
+      self.rank[jRep] += 1
