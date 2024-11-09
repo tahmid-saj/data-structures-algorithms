@@ -1,28 +1,31 @@
+from collections import defaultdict, deque
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         if n == 1 and len(edges) == 0: return [0]
 
-        inEdges = defaultdict(int)
         adjList = defaultdict(list)
+        inDegree = defaultdict(int)
 
         for u, v in edges:
             adjList[u].append(v)
             adjList[v].append(u)
-            inEdges[v] += 1
-            inEdges[u] += 1
-
+            inDegree[v] += 1
+            inDegree[u] += 1
+        
         leaves = deque()
-        for v in adjList:
-            if inEdges[v] == 1: leaves.append(v)
+        for i in range(n):
+            # if the neighbor has an inDegree of 1, then its a leaf
+            if inDegree[i] == 1: leaves.append(i)
         
-        # there cannot exist more than 2 centroids, we are trying to return the centroids and removing any leaves one by one up to the 2 centroids
+        # We can only have 2 centroids, so we remove leaves up until we get to the possible 2 centroids
         while n > 2:
-            levelLength = len(leaves)
-            n -= levelLength
-            for i in range(levelLength):
-                v = leaves.popleft()
-                for child in adjList[v]:
-                    inEdges[child] -= 1
-                    if inEdges[child] == 1: leaves.append(child)
-        
+            leavesLength = len(leaves)
+            n -= leavesLength
+            for _ in range(leavesLength):
+                node = leaves.popleft()
+                for neighbor in adjList[node]:
+                    inDegree[neighbor] -= 1
+                    # if the neighbor has an inDegree of 1, then its a leaf
+                    if inDegree[neighbor] == 1: leaves.append(neighbor)
+
         return list(leaves)

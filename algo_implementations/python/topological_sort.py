@@ -5,6 +5,9 @@ class TopologicalSortDFS:
     self.adjList = defaultdict(list)
     self.vertices = vertices
   
+  def addEdge(self, u, v):
+    self.adjList[u].append(v)
+  
   def topologicalSortUtil(self, stk, node, visited):
     visited[node] = True
     
@@ -26,6 +29,9 @@ class TopologicalSortBFS:
   def __init__(self, vertices):
     self.vertices = vertices
     self.adjList = defaultdict(list)
+  
+  def addEdge(self, u, v):
+    self.adjList[u].append(v)
   
   def topologicalSort(self):
     inDegree = [0 for _ in range(self.vertices)]
