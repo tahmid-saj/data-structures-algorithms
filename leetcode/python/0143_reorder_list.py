@@ -8,28 +8,28 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        if head.next == None: return
-        # find middle of linked list
-        prev = ListNode()
-        prev.next = head
-        slow, fast = head, head
-        while fast and fast.next:
-            prev = prev.next
-            slow = slow.next
-            fast = fast.next.next
-        prev.next = None
+        # find the midpoint of the list, reverse from the midpoint to the end
+        # traverse from both sides of the list towards the midpoint, and change their next pointer values
+        if not head: return
+        if not head.next: return
+        first, second, prevNode = head, head, ListNode(None, head)
+        while second and second.next:
+            prevNode = prevNode.next
+            first = first.next
+            second = second.next.next
+        prevNode.next = None
+
+        prev, curr = None, first
+        while curr:
+            tmp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = tmp
         
-        # reverse from slow to fast
-        p = None
-        while slow:
-            tmp = slow.next
-            slow.next = p
-            p = slow
-            slow = tmp
-        
-        n1, n2 = head, p
-        while n1 and n2:
-            tmp1, tmp2 = n1.next, n2.next
-            n1.next = n2
-            if tmp1 != None: n2.next = tmp1
-            n1, n2 = tmp1, tmp2
+        l, r = head, prev
+        while l and r:
+            lNext, rNext = l.next, r.next
+            l.next = r
+            if lNext: r.next = lNext
+            l = lNext
+            r = rNext
