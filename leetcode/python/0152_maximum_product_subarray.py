@@ -16,12 +16,13 @@ class Solution:
         return res
     
     def linearTime(self, nums):
-        localMax, localMin, res = 1, 1, -math.inf
+        localMin, localMax, res = nums[0], nums[0], nums[0]
 
-        for i in range(len(nums)):
-            tmpMax = max(localMax * nums[i], localMin * nums[i], nums[i])
-            localMin = min(localMin * nums[i], localMax * nums[i], nums[i])
-            localMax = tmpMax
-            res = max(res, localMax)
+        for i in range(1, len(nums)):
+            tmpLocalMin = min(localMin * nums[i], localMax * nums[i], nums[i])
+            tmpLocalMax = max(localMax * nums[i], localMin * nums[i], nums[i])
+            res = max(res, tmpLocalMax)
+            localMin = tmpLocalMin
+            localMax = tmpLocalMax
         
         return res
