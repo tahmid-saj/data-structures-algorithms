@@ -2,21 +2,21 @@ class MyQueue(object):
     def __init__(self):
         self.enqueue = []
         self.dequeue = []
-        self.front = None
+        self.topInEnqueue = None
 
     def push(self, x):
         """
         :type x: int
         :rtype: None
         """
-        if len(self.enqueue) == 0: self.front = x
+        if not self.enqueue: self.topInEnqueue = x
         self.enqueue.append(x)
 
     def pop(self):
         """
         :rtype: int
         """
-        if len(self.dequeue) == 0:
+        if not self.dequeue:
             while self.enqueue: self.dequeue.append(self.enqueue.pop())
         return self.dequeue.pop()
 
@@ -25,7 +25,7 @@ class MyQueue(object):
         :rtype: int
         """
         if self.dequeue: return self.dequeue[-1]
-        return self.front
+        return self.topInEnqueue
 
     def empty(self):
         """
