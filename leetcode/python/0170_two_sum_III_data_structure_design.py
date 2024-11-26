@@ -1,5 +1,4 @@
 class TwoSum:
-
     def __init__(self):
         self.seen = {}
 
