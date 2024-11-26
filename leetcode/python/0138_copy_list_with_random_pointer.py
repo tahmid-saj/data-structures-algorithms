@@ -15,19 +15,20 @@ class Solution:
         return self.iterativeConstantSpace(head)
     
     def recursive(self, node, clones):
-        if node == None: return None
         # if node is not in clones: create a new Node object and assign clones[node] = object
         # if the randompointer is not in clones: create it, else assign clones[node].random = random
-        if node not in clones: 
-            if node == None: clones[node] = None
-            else: clones[node] = Node(node.val, None, None)
-        
-        if node.random not in clones:
-            if node.random == None: clones[node.random] = None
-            else: clones[node.random] = Node(node.random.val, None, None)
+        if not node: return None
+        clones[node] = Node(node.val, None, None)
 
-        clones[node].random = clones[node.random]
-        clones[node].next = self.recursive(node.next, clones)
+        nextClone, randomClone = None, None
+        if node.next and node.next not in clones: nextClone = self.recursive(node.next, clones)
+        elif node.next in clones: nextClone = clones[node.next]
+
+        if node.random and node.random not in clones: randomClone = self.recursive(node.random, clones)
+        elif node.random in clones: randomClone = clones[node.random]
+
+        clones[node].next = nextClone
+        clones[node].random = randomClone
 
         return clones[node]
     
