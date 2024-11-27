@@ -25,8 +25,14 @@ class PeekingIterator:
         Initialize your data structure here.
         :type iterator: Iterator
         """
-        self.list = iterator
-        self.curr = self.list.next()
+        self.prevIterator = iterator
+        self.curr = self.prevIterator.next()
+    
+    def hasNext(self):
+        """
+        :rtype: bool
+        """
+        return (1 <= self.curr <= 1000) or self.prevIterator.hasNext()
 
     def peek(self):
         """
@@ -40,14 +46,8 @@ class PeekingIterator:
         :rtype: int
         """
         res = self.curr
-        self.curr = self.list.next()
+        self.curr = self.prevIterator.next()
         return res
-
-    def hasNext(self):
-        """
-        :rtype: bool
-        """
-        return (1 <= self.curr <= 1000) or self.list.hasNext()
 
 # Your PeekingIterator object will be instantiated and called as such:
 # iter = PeekingIterator(Iterator(nums))
