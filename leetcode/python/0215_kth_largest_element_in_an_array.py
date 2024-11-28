@@ -1,8 +1,8 @@
 from heapq import *
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        # return self.heap(nums, k)
-        return self.quickselect(nums, k)
+        return self.heap(nums, k)
+        # return self.quickselect(nums, k)
 
     def heap(self, nums, k):
         minHeap = []
@@ -11,6 +11,7 @@ class Solution:
             if minHeap[0] <= nums[i]:
                 heappop(minHeap)
                 heappush(minHeap, nums[i])
+
         return minHeap[0]
     
     def quickselect(self, nums, k):
