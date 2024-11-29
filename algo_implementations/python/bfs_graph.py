@@ -10,15 +10,17 @@ class GraphUndirected:
     self.adjList[v].append(u)
   
   def bfs(self, start):
-    visited = [False] * self.vertices
+    visited = [False for _ in range(self.vertices)]
     queue = deque([start])
     visited[start] = True
     
     while queue:
-      curr = queue.popleft()
-      print(curr)
+      node = queue.popleft()
       
-      for neighbor in self.adjList(curr):
+      for neighbor in self.adjList[node]:
         if not visited[neighbor]:
           queue.append(neighbor)
           visited[neighbor] = True
+
+# Time complexity: O(V + E) from visiting all vertices + edges
+# Space complexity: O(V) from the queue in iterative approach

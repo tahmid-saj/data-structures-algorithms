@@ -7,18 +7,29 @@ class GraphUndirected:
     self.adjList[u].append(v)
     self.adjList[v].append(u)
   
-  def dfs(self, start):
-    visited = [False] * self.vertices
-    stack = []
-    
-    stack.append(start)
+  def dfsIterative(self, start):
+    visited = [False for _ in range(self.vertices)]
+    stack = [start]
     visited[start] = True
     
     while stack:
-      curr = stack.pop()
-      print(curr)
+      node = stack.pop()
       
-      for neighbor in self.adjList[curr]:
+      for neighbor in self.adjList[node]:
         if not visited[neighbor]:
           stack.append(neighbor)
           visited[neighbor] = True
+  
+  def dfsRecursive(self, start):
+    visited = [False for _ in range(self.vertices)]
+    self.dfs(start, visited)
+  
+  def dfs(self, vertex, visited):
+    visited[vertex] = True
+    
+    for neighbor in self.adjList[vertex]:
+      if not visited[neighbor]:
+        self.dfs(neighbor, visited)
+
+# Time complexity: O(V + E) from visiting all vertices + edges
+# Space complexity: O(V) from the stack in iterative approach + call stack in recursive approach
