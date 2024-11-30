@@ -43,16 +43,16 @@ class Solution:
         for i in range(len(isConnected)):
             if i not in visited:
                 res += 1
-                # self.dfs(isConnected, visited, i)
-                self.dfsStk(isConnected, visited, i)
+                # self.dfsRecursive(isConnected, visited, i)
+                self.dfsIterative(isConnected, visited, i)
         
         return res
 
         # return self.unionFind(isConnected)
 
-    def dfsStk(self, isConnected, visited, city):
-        stk = [city]
-        visited.add(city)
+    def dfsIterative(self, isConnected, visited, i):
+        visited.add(i)
+        stk = [i]
 
         while stk:
             i = stk.pop()
@@ -62,12 +62,12 @@ class Solution:
                     visited.add(j)
                     stk.append(j)
     
-    def dfs(self, isConnected, visited, i):
+    def dfsRecursive(self, isConnected, visited, i):
         visited.add(i)
 
-        for j in range(len(isConnected[0])):
-            if i != j and isConnected[i][j] == 1 and j not in visited: self.dfs(isConnected, visited, j)
-    
+        for j in range(len(isConnected[i])):
+            if i != j and isConnected[i][j] == 1 and j not in visited: self.dfsRecursive(isConnected, visited, j)
+
     def unionFind(self, isConnected):
         dsu = DSUOptimized(len(isConnected))
         # dsu = DSU(len(isConnected))
