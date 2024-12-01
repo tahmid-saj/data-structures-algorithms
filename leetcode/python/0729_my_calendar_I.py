@@ -1,21 +1,32 @@
 from sortedcontainers import SortedList
-
 class MyCalendar:
-
     def __init__(self):
-        # self.bookings = []
-        self.bookings = SortedList()
+        # manually sorted list
+        # self.list = []
+
+        # sortedlist module
+        self.sortedList = SortedList()
 
     def book(self, start: int, end: int) -> bool:
-        # for s, e in self.bookings:
-        #     if s < end and start < e: return False
-        # else:
-        #     self.bookings.append([start, end])
-        #     self.bookings.sort(key=lambda x: x[0])
+        # manually sorted list
+        # if not self.list:
+        #     self.list.append([start, end])
         #     return True
-        i = self.bookings.bisect_right((start, end))
-        if (i > 0 and start < self.bookings[i - 1][1]) or (i < len(self.bookings) and self.bookings[i][0] < end): return False
-        self.bookings.add((start, end))
+        # else:
+        #     for i in range(len(self.list)):
+        #         s, e = self.list[i]
+        #         if not (end <= s or e <= start): return False
+        #     self.list.append([start, end])
+        #     self.list.sort(key=lambda x: x[0])
+        # return True
+        
+        # sortedlist module
+        if len(self.sortedList) == 0: 
+            self.sortedList.add((start, end))
+            return True
+        i = self.sortedList.bisect_right((start, end))
+        if (i - 1 >= 0 and start < self.sortedList[i - 1][1]) or (i < len(self.sortedList) and end > self.sortedList[i][0]): return False
+        self.sortedList.add((start, end))
         return True
 
 
