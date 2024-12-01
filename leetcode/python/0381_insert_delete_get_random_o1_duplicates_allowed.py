@@ -1,43 +1,40 @@
+from collections import defaultdict
 class RandomizedCollection:
-
     def __init__(self):
-        self.map = defaultdict(set)
+        self.index = defaultdict(set)
         self.list = []
 
     def insert(self, val: int) -> bool:
+        if val not in self.index: res = True
+        else: res = False
+
         i = len(self.list)
+        self.index[val].add(i)
+        self.list.append(val)
 
-        if val in self.map:
-            self.map[val].add(i)
-            self.list.append(val)
-            return False
-        elif val not in self.map:
-            self.map[val].add(i)
-            self.list.append(val)
-
-        return True
+        return res
 
     def remove(self, val: int) -> bool:
-        if val not in self.map: return False
+        if val not in self.index: return False
 
-        i, last = self.map[val].pop(), self.list[-1]
+        i, j = self.index[val].pop(), len(self.list) - 1
+        lastEle = self.list[j]
 
-        if i == len(self.list) - 1:
-            if len(self.map[val]) == 0: self.map.pop(val)
+        if i == j:
             self.list.pop()
+            if len(self.index[val]) == 0: self.index.pop(val)
         else:
-            if len(self.map[val]) == 0: self.map.pop(val)
-            print(i, len(self.list) - 1)
-            self.list[i], self.list[-1] = self.list[-1], self.list[i]
-            self.map[last].discard(len(self.list) - 1)
-            self.map[last].add(i)
+            self.list[i], self.list[j] = self.list[j], self.list[i]
             self.list.pop()
+
+            if len(self.index[val]) == 0: self.index.pop(val)
+            self.index[lastEle].remove(j)
+            self.index[lastEle].add(i)
 
         return True
 
     def getRandom(self) -> int:
         return random.choice(self.list)
-
 
 # Your RandomizedCollection object will be instantiated and called as such:
 # obj = RandomizedCollection()
