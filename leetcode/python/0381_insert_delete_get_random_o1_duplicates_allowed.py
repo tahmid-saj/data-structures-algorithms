@@ -19,15 +19,14 @@ class RandomizedCollection:
 
         i, j = self.index[val].pop(), len(self.list) - 1
         lastEle = self.list[j]
+        if len(self.index[val]) == 0: self.index.pop(val)
 
         if i == j:
             self.list.pop()
-            if len(self.index[val]) == 0: self.index.pop(val)
         else:
             self.list[i], self.list[j] = self.list[j], self.list[i]
             self.list.pop()
 
-            if len(self.index[val]) == 0: self.index.pop(val)
             self.index[lastEle].remove(j)
             self.index[lastEle].add(i)
 
